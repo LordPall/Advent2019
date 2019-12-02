@@ -7,7 +7,8 @@ namespace Advent
         static void Main(string[] args)
         {
             Solver curSolver = new Solver();
-            curSolver.SolveDayOne();
+            // curSolver.SolveDayOne();
+            curSolver.SolveDayTwo();
         }
     }
 }

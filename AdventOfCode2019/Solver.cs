@@ -77,5 +77,95 @@ namespace Advent
             int result = coreSolver.GetRequiredFuelForMass(testMass);
             Assert.Equal(expectedFuel, result);
         }
+        public void SolveDayTwo()
+        {
+            string resultsFile = "adventDayTwoSolution.txt";
+            string dataFile = "adventDayTwo.txt";
+            string outFile = Path.Combine(baseDir, resultsFile);
+            string inFile = Path.Combine(baseDir, dataFile);
+            string[] sourceData = ReadAllLines(inFile);
+            // should be one line 
+            string[] splitVals = sourceData[0].Split(',');
+            int[] intComp = new int[splitVals.Length];
+            for(int intI = 0; intI < intComp.Length; intI++)
+            {
+                intComp[intI] = int.Parse(splitVals[intI]);
+            }
+            // replace the parameters to get back to original run
+            intComp[1] = 12;
+            intComp[2] = 2;
+            ProcessOpCode(ref intComp);
+            string outLine = "";
+            for (int intI = 0; intI < intComp.Length; intI++)
+            {
+                if(intI>0)
+                {
+                    outLine += ",";
+                }
+                outLine += intComp[intI];
+
+            }
+            StreamWriter sw = new StreamWriter(outFile);
+            sw.WriteLine(outLine);
+            sw.Close();
+
+        }
+        public void ProcessOpCode(ref int[] intComp)
+        {
+            int curPos = 0;
+            bool finishedRunning = false;
+            while (!finishedRunning)
+            {
+                int curCode = intComp[curPos];
+                if(curCode==99)
+                {
+                    return;
+                    // done
+                }
+                else if(curCode==1)
+                {
+                    curPos = ProcessAddOpCode(ref intComp, curPos);
+                }
+                else if(curCode==2)
+                {
+                    curPos = ProcessMultiplyOpCode(ref intComp, curPos);
+                }
+                else
+                {
+                    // DER FARK?
+                    break;
+                }
+            }
+
+        }
+        // moar complicated
+        int ProcessAddOpCode(ref int[] intComp, int curPos)
+        {
+
+            int newVal = 0;
+            curPos++;
+            newVal  = intComp[intComp[curPos]];
+            curPos++;
+            newVal += intComp[intComp[curPos]];
+            curPos++;
+            intComp[intComp[curPos]] = newVal;
+            curPos++;
+            return curPos;
+            // setup is as follows
+            // insturctyion, number1, number 2, destination
+
+        }
+        int ProcessMultiplyOpCode(ref int[] intComp, int curPos)
+        {
+            int newVal = 0;
+            curPos++;
+            newVal = intComp[intComp[curPos]];
+            curPos++;
+            newVal  = newVal * intComp[intComp[curPos]];
+            curPos++;
+            intComp[intComp[curPos]] = newVal;
+            curPos++;
+            return curPos;
+        }
     }
 }
