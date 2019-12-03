@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Text;
 using System.IO;
 using Xunit;
-namespace Advent
+namespace AdventOfCode2019
 {
     public class Solver
     {
-        string baseDir = @"c:\Projects\Advent\inData";
+        string baseDir = @"D:\Projects\Advent2019\inData";
         // helper stuffs
         string[] ReadAllLines(string inFile)
         {
@@ -85,87 +85,42 @@ namespace Advent
             string inFile = Path.Combine(baseDir, dataFile);
             string[] sourceData = ReadAllLines(inFile);
             // should be one line 
-            string[] splitVals = sourceData[0].Split(',');
-            int[] intComp = new int[splitVals.Length];
-            for(int intI = 0; intI < intComp.Length; intI++)
-            {
-                intComp[intI] = int.Parse(splitVals[intI]);
-            }
-            // replace the parameters to get back to original run
-            intComp[1] = 12;
-            intComp[2] = 2;
-            ProcessOpCode(ref intComp);
-            string outLine = "";
-            for (int intI = 0; intI < intComp.Length; intI++)
-            {
-                if(intI>0)
-                {
-                    outLine += ",";
-                }
-                outLine += intComp[intI];
+            IntComputer newComp = new IntComputer();
+            newComp.InitializeMemoryFromFile(inFile);
 
+            // we need to find the values that give us 19690720 in address 0 after running. Reset each time.
+            if(FindNounVerb(newComp))
+            {
+                newComp.WriteMemoryToFile(outFile);
+                int val = 100 * newComp.ReadMemoryAtAddress(1) + newComp.ReadMemoryAtAddress(2);
             }
-            StreamWriter sw = new StreamWriter(outFile);
-            sw.WriteLine(outLine);
-            sw.Close();
-
+            else
+            {
+                Console.WriteLine("FAIL");
+            }
+            
+            //19690720
         }
-        public void ProcessOpCode(ref int[] intComp)
+        public bool FindNounVerb(IntComputer newComp)
         {
-            int curPos = 0;
-            bool finishedRunning = false;
-            while (!finishedRunning)
+            for (int intI = 0; intI < 100; intI++)
             {
-                int curCode = intComp[curPos];
-                if(curCode==99)
+                for (int intJ = 0; intJ < 100; intJ++)
                 {
-                    return;
-                    // done
-                }
-                else if(curCode==1)
-                {
-                    curPos = ProcessAddOpCode(ref intComp, curPos);
-                }
-                else if(curCode==2)
-                {
-                    curPos = ProcessMultiplyOpCode(ref intComp, curPos);
-                }
-                else
-                {
-                    // DER FARK?
-                    break;
+                    newComp.ResetMemory();
+                    newComp.ReplaceMemoryAtAddress(1, intI);
+                    newComp.ReplaceMemoryAtAddress(2, intJ);
+                    newComp.RunProgram();
+                    int result = newComp.ReadMemoryAtAddress(0);
+                    if (result == 19690720)
+                    {
+                        // ALL DONE
+                        return true;                        
+                    }
                 }
             }
-
+            return false;
         }
-        // moar complicated
-        int ProcessAddOpCode(ref int[] intComp, int curPos)
-        {
-
-            int newVal = 0;
-            curPos++;
-            newVal  = intComp[intComp[curPos]];
-            curPos++;
-            newVal += intComp[intComp[curPos]];
-            curPos++;
-            intComp[intComp[curPos]] = newVal;
-            curPos++;
-            return curPos;
-            // setup is as follows
-            // insturctyion, number1, number 2, destination
-
-        }
-        int ProcessMultiplyOpCode(ref int[] intComp, int curPos)
-        {
-            int newVal = 0;
-            curPos++;
-            newVal = intComp[intComp[curPos]];
-            curPos++;
-            newVal  = newVal * intComp[intComp[curPos]];
-            curPos++;
-            intComp[intComp[curPos]] = newVal;
-            curPos++;
-            return curPos;
-        }
+        
     }
 }

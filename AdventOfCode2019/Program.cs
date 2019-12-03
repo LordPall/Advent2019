@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Advent
+namespace AdventOfCode2019
 {
     class Program
     {
