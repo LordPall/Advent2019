@@ -101,6 +101,19 @@ namespace AdventOfCode2019
             
             //19690720
         }
+        public void SolveDayThree()
+        {
+            string resultsFile = "adventDayThreeSolution.txt";
+            string dataFile = "adventDayThree.txt";
+            string outFile = Path.Combine(baseDir, resultsFile);
+            string inFile = Path.Combine(baseDir, dataFile);
+            WirePanel wp = new WirePanel();
+            wp.PlaceWiresFromFile(inFile, outFile);
+            
+            
+            
+            
+        }
         public bool FindNounVerb(IntComputer newComp)
         {
             for (int intI = 0; intI < 100; intI++)
