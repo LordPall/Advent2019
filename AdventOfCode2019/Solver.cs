@@ -109,10 +109,13 @@ namespace AdventOfCode2019
             string inFile = Path.Combine(baseDir, dataFile);
             WirePanel wp = new WirePanel();
             wp.PlaceWiresFromFile(inFile, outFile);
+        }
+        public void SolveDayFour()
+        {
+            NumberGenerator numberGen = new NumberGenerator();
+            numberGen.GenerateNewNumber();
             
-            
-            
-            
+
         }
         public bool FindNounVerb(IntComputer newComp)
         {
