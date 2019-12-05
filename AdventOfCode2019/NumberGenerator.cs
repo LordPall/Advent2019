@@ -122,7 +122,7 @@ Going from left to right, the digits never decrease; they only ever increase or 
         public void GenerateNewNumber()
         {
 
-            int validCount = 0;
+            
 
             // cheese mechanism
             for(int intI =minVal; intI <= maxVal; intI++)
@@ -136,7 +136,7 @@ Going from left to right, the digits never decrease; they only ever increase or 
             ValidateNumber(111122);
             ValidateNumber(111122);
 
-            int t = 90;
+            
             // 2 = 3 4 5 6 7 8 9
             // 23 4 5 6 7 8 9 
             //24 5 6 7 8 9

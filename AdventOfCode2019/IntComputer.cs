@@ -6,6 +6,7 @@ namespace AdventOfCode2019
 {
     public class IntComputer
     {
+        
         int[] initialMemory;
         int[] memory;
         int memoryPointer;
@@ -78,68 +79,45 @@ namespace AdventOfCode2019
                     outLine += ",";
                 }
                 outLine += memory[intI];
-
             }
             StreamWriter sw = new StreamWriter(outFile);
             sw.WriteLine(outLine);
-            sw.Close();
-        }
-        public void ProcessOpCode(ref int[] intComp)
-        {
-            int curPos = 0;
-            bool finishedRunning = false;
-            while (!finishedRunning)
+            outLine = "Output Data: ";
+            for(int intI = 0; intI < outputData.Count; intI++)
             {
-                int curCode = intComp[curPos];
-                if(curCode==99)
+                if (intI > 0)
                 {
-                    return;
-                    // done
+                    outLine += ",";
                 }
-                else if(curCode==1)
-                {
-                    curPos = ProcessAddOpCode(ref intComp, curPos);
-                }
-                else if(curCode==2)
-                {
-                    curPos = ProcessMultiplyOpCode(ref intComp, curPos);
-                }
-                else
-                {
-                    // DER FARK?
-                    break;
-                }
+                outLine += outputData[intI];
             }
 
+            sw.WriteLine(outLine);
+            sw.Close();
         }
-        // moar complicated
-        int ProcessAddOpCode(ref int[] intComp, int curPos)
+        public List<int> outputData = new List<int>();
+        public List<int> inputData = new List<int>();
+        public int ReadNextInput()
         {
-
-            int newVal = 0;
-            curPos++;
-            newVal  = intComp[intComp[curPos]];
-            curPos++;
-            newVal += intComp[intComp[curPos]];
-            curPos++;
-            intComp[intComp[curPos]] = newVal;
-            curPos++;
-            return curPos;
-            // setup is as follows
-            // insturctyion, number1, number 2, destination
-
+            int curVal = inputData[0];
+            inputData.RemoveAt(0);
+            return curVal;
         }
-        int ProcessMultiplyOpCode(ref int[] intComp, int curPos)
+        public void AddInputData(int val)
         {
-            int newVal = 0;
-            curPos++;
-            newVal = intComp[intComp[curPos]];
-            curPos++;
-            newVal  = newVal * intComp[intComp[curPos]];
-            curPos++;
-            intComp[intComp[curPos]] = newVal;
-            curPos++;
-            return curPos;
+            inputData.Add(val);
         }
+        public void WriteOutputData(int newVal)
+        {
+            outputData.Add(newVal);
+        }
+        public void SetMemoryPointer(int newVal)
+        {
+            // asplodes if you do this wrong. 
+            memoryPointer = newVal;
+        }
+        
+
+
     }
 }

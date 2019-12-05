@@ -114,7 +114,20 @@ namespace AdventOfCode2019
         {
             NumberGenerator numberGen = new NumberGenerator();
             numberGen.GenerateNewNumber();
-            
+        }
+        public void SolveDayFive()
+        {
+            string resultsFile = "adventDayFiveSolution.txt";
+            string dataFile = "adventDayFive.txt";
+            string outFile = Path.Combine(baseDir, resultsFile);
+            string inFile = Path.Combine(baseDir, dataFile);
+            string[] sourceData = ReadAllLines(inFile);
+            // should be one line 
+            IntComputer newComp = new IntComputer();
+            newComp.InitializeMemoryFromFile(inFile);
+            newComp.AddInputData(5);
+            newComp.RunProgram();
+            newComp.WriteMemoryToFile(outFile);
 
         }
         public bool FindNounVerb(IntComputer newComp)
