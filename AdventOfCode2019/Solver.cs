@@ -130,6 +130,18 @@ namespace AdventOfCode2019
             newComp.WriteMemoryToFile(outFile);
 
         }
+        public void SolveDaySix()
+        {
+            string resultsFile = "adventDaySixSolution.txt";
+            string dataFile = "adventDaySix.txt";
+            string outFile = Path.Combine(baseDir, resultsFile);
+            string inFile = Path.Combine(baseDir, dataFile);
+            string[] sourceData = ReadAllLines(inFile);
+            // should be one line 
+            OrbitalMap om = new OrbitalMap();
+            om.ReadSourceData(sourceData);
+        }
+
         public bool FindNounVerb(IntComputer newComp)
         {
             for (int intI = 0; intI < 100; intI++)
