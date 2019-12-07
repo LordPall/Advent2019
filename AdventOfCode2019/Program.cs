@@ -1,5 +1,6 @@
 ﻿using System;
-
+using System.Collections;
+using System.Collections.Generic;
 namespace AdventOfCode2019
 {
     class Program
@@ -12,7 +13,9 @@ namespace AdventOfCode2019
             //curSolver.SolveDayThree();
             //curSolver.SolveDayFour();
             //curSolver.SolveDayFive();
-            curSolver.SolveDaySix();
+            //curSolver.SolveDaySix();           
+            curSolver.SolveDaySeven();
+
         }
     }
 }

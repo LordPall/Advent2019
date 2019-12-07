@@ -164,6 +164,7 @@ namespace AdventOfCode2019
             computer.ReplaceMemoryAtAddress(destinationParam.GetParamData(), inputData);
         }
     }
+    // debate whether to parameterize this. 
     public class OutputOpCode : OpCode
     {
         OpCodeParameter targetData;
@@ -179,6 +180,7 @@ namespace AdventOfCode2019
         protected override void ProcessOpCode(IntComputer computer)
         {
             computer.WriteOutputData(targetData.GetParamDataUsingMode());
+            computer.PauseProgram();
         }
     }
 
