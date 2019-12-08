@@ -44,6 +44,30 @@ namespace AdventOfCode2019
 
         }
 
+        [Theory]
+        [InlineData(25,25,13,12,313)]
+        public void TestIndexFromCoordinates(int xSize, int ySize, int xCoord, int yCoord, int expectedIndex)
+        {
+            
+            LayeredImage li = new LayeredImage(xSize, ySize);
+            Vector2 vec = new Vector2();
+            vec.x = xCoord;
+            vec.y = yCoord;
+            int retVal = li.GetIndexFromCoordinate(vec);
+            Assert.Equal(retVal, expectedIndex);
+
+
+        }
+        [Theory]
+        [InlineData(25, 25, 313,13, 12 )]
+        public void TestCoordinateFromIndex(int xSize, int ySize, int curIndex, int expectedX, int expectedY)
+        {
+            
+            LayeredImage li = new LayeredImage( xSize, ySize);
+            Vector2 retVal = li.GetCoordinatesFromIndex(curIndex);
+            Assert.Equal(expectedX, retVal.x);
+            Assert.Equal(expectedY, retVal.y);
+        }
 
     }
 }

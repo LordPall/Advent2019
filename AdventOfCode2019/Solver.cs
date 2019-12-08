@@ -129,6 +129,21 @@ namespace AdventOfCode2019
             OrbitalMap om = new OrbitalMap();
             om.ReadSourceData(sourceData);
         }
+        public void SolveDayEight()
+        {
+            string resultsFile = "adventDayEightSolution.png";
+            string dataFile = "adventDayEight.txt";
+            string outFile = Path.Combine(baseDir, resultsFile);
+            string inFile = Path.Combine(baseDir, dataFile);
+            string[] sourceData = ReadAllLines(inFile);
+            int width = 25;
+            int height = 6;
+            LayeredImage li = new LayeredImage(width, height);
+            li.ImportImageData(sourceData[0]);
+            //int ret = li.ValidateImageLayers();
+            li.DrawImage(outFile);
+            
+        }
         public void SolveDaySeven()
         {
             string resultsFile = "adventDaySevenSolution.txt";
