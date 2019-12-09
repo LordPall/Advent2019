@@ -80,7 +80,7 @@ namespace AdventOfCode2019
             if(FindNounVerb(newComp))
             {
                 newComp.WriteMemoryToFile(outFile);
-                int val = 100 * newComp.ReadMemoryAtAddress(1) + newComp.ReadMemoryAtAddress(2);
+                long val = 100 * newComp.ReadMemoryAtAddress(1) + newComp.ReadMemoryAtAddress(2);
             }
             else
             {
@@ -144,29 +144,51 @@ namespace AdventOfCode2019
             li.DrawImage(outFile);
             
         }
+        public void SolveDayNine()
+        {
+
+            string resultsFile = "adventDayNineSolution.txt";
+            string dataFile = "adventDayNine.txt";
+            string outFile = Path.Combine(baseDir, resultsFile);
+            string inFile = Path.Combine(baseDir, dataFile);
+            string[] sourceData = ReadAllLines(inFile);
+            IntComputer curComp = new IntComputer();
+            curComp.InitializeMemory(sourceData[0]);
+            curComp.AddInputData(2); // test mode
+            //curComp.InitializeMemory(SolverTests.GetSampleData(0));
+            curComp.StartComputer(false);
+            while(!curComp.IsProgramCompleted())
+            {
+                curComp.ResumeProgram(); 
+            }
+            string debugData = curComp.GetDebugOutputString();
+            StreamWriter sw = new StreamWriter(outFile);
+            sw.WriteLine(debugData);
+            sw.Close();
+            //long outVal = curComp.ReadOutputData();
+        }
         public void SolveDaySeven()
         {
             string resultsFile = "adventDaySevenSolution.txt";
             string dataFile = "adventDaySeven.txt";
             string outFile = Path.Combine(baseDir, resultsFile);
             string inFile = Path.Combine(baseDir, dataFile);
-            string[] sourceData = ReadAllLines(inFile);
-            int endVal = 44444;
-            int curMax = int.MinValue;
+            string[] sourceData = ReadAllLines(inFile);            
+            long curMax = long.MinValue;
             Amplifiers curAmps = new Amplifiers(5, sourceData[0]);
             
             
             // base 5 number  ?
-            int nextVal = 0;
-            int nextPhase = 0;
+            long nextVal = 0;
+            
             List<int> phasesRun = new List<int>();
-            List<int> results = new List<int>();
+            List<long> results = new List<long>();
             List<string> generatedNumbers = new List<string>();
             char[] digits = new char[] { '5', '6', '7', '8', '9' };
             int numDigits = 5;
             int maxPhase = 0;
             Solver.GeneratePermutations(digits, numDigits, "", numDigits, ref generatedNumbers);
-            string outLine = "";
+            
             StreamWriter sw = new StreamWriter(outFile);
             
             
@@ -192,7 +214,7 @@ namespace AdventOfCode2019
             }
             sw.WriteLine("FOR " + maxPhase + " value is " + curMax);           
             sw.Close();
-            int T = 9;
+            
 
       
             
@@ -320,10 +342,10 @@ namespace AdventOfCode2019
                 for (int intJ = 0; intJ < 100; intJ++)
                 {
                     newComp.ResetMemory();
-                    newComp.ReplaceMemoryAtAddress(1, intI);
-                    newComp.ReplaceMemoryAtAddress(2, intJ);
+                    newComp.ReplaceMemoryAtAddress(1, (long)intI);
+                    newComp.ReplaceMemoryAtAddress(2, (long)intJ);
                     newComp.StartComputer(false);
-                    int result = newComp.ReadMemoryAtAddress(0);
+                    long result = newComp.ReadMemoryAtAddress(0);
                     if (result == 19690720)
                     {
                         // ALL DONE

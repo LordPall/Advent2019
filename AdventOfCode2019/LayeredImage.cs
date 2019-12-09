@@ -153,7 +153,7 @@ namespace AdventOfCode2019
                     }
                     else
                     {
-                        int t = 0; // the fark?
+                        // the fark?
                     }
                 }
             }

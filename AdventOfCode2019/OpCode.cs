@@ -13,8 +13,8 @@ namespace AdventOfCode2019
             // 1002
             //ABCDE
             //01002 = DE = opcode, c = mode for op 1, b mode for op 2 a, mode for op 3
-            
-            int opCodeData = computer.ReadNextMemoryAddress();
+
+            long opCodeData = computer.ReadNextMemoryAddress();
             OpCodeInstruction newInstruction = new OpCodeInstruction(opCodeData);
             switch (newInstruction.GetInstruction())
             {
@@ -40,6 +40,8 @@ namespace AdventOfCode2019
 
                 case OpCodeInstruction.OPCODE_TYPES.EQUALS:
                     return new EqualsOpCode(newInstruction);
+                case OpCodeInstruction.OPCODE_TYPES.ADJUST_RELATIVE_BASE:
+                    return new AdjustRelativeBaseOpCode(newInstruction);
 
                 default:
                     Console.WriteLine("DER FARK?");
@@ -64,7 +66,8 @@ namespace AdventOfCode2019
         protected virtual void ProcessOpCode(IntComputer computer)
         {
 
-        }        
+        }
+
     }
 
     public class MulOpcode : OpCode
@@ -72,7 +75,7 @@ namespace AdventOfCode2019
         OpCodeParameter firstVal;
         OpCodeParameter secondVal;
         OpCodeParameter thirdVal;
-        int result;
+        long result;
         public MulOpcode(OpCodeInstruction newInstruction) : base(newInstruction)
         {           
 
@@ -80,7 +83,7 @@ namespace AdventOfCode2019
 
         protected override void ReadOpCodeData(IntComputer computer)
         {
-            int nextMemoryData = computer.ReadNextMemoryAddress();
+            long nextMemoryData = computer.ReadNextMemoryAddress();
             firstVal = new OpCodeParameter(curInstruction.GetParamMode(0), nextMemoryData, computer);
 
             nextMemoryData = computer.ReadNextMemoryAddress();
@@ -93,10 +96,8 @@ namespace AdventOfCode2019
 
         protected override void ProcessOpCode(IntComputer computer)
         {
-
-            result = firstVal.GetParamDataUsingMode() * secondVal.GetParamDataUsingMode();
-            computer.ReplaceMemoryAtAddress(thirdVal.GetParamData(), result);
-            
+            result = firstVal.ReadParamFromMemory() * secondVal.ReadParamFromMemory();
+            computer.ReplaceMemoryAtAddress(thirdVal.GetMemoryWriteAddressFromParameter(), result);            
         }
     }
     public class AddOpCode : OpCode
@@ -104,7 +105,7 @@ namespace AdventOfCode2019
         OpCodeParameter firstVal;
         OpCodeParameter secondVal;
         OpCodeParameter thirdVal;
-        int result;
+        long result;
         public AddOpCode(OpCodeInstruction newInstruction) : base(newInstruction)
         {
 
@@ -112,7 +113,7 @@ namespace AdventOfCode2019
 
         protected override void ReadOpCodeData(IntComputer computer)
         {
-            int nextMemoryData = computer.ReadNextMemoryAddress();
+            long nextMemoryData = computer.ReadNextMemoryAddress();
             firstVal = new OpCodeParameter(curInstruction.GetParamMode(0), nextMemoryData, computer);
 
             nextMemoryData = computer.ReadNextMemoryAddress();
@@ -124,8 +125,8 @@ namespace AdventOfCode2019
         protected override void ProcessOpCode(IntComputer computer)
         {
 
-            result = firstVal.GetParamDataUsingMode() + secondVal.GetParamDataUsingMode();
-            computer.ReplaceMemoryAtAddress(thirdVal.GetParamData(), result);
+            result = firstVal.ReadParamFromMemory() + secondVal.ReadParamFromMemory();
+            computer.ReplaceMemoryAtAddress(thirdVal.GetMemoryWriteAddressFromParameter(), result);
 
         }
     }
@@ -147,7 +148,7 @@ namespace AdventOfCode2019
     public class InputOpCode : OpCode
     {
         OpCodeParameter destinationParam;
-        int inputData;
+        long inputData;
         public InputOpCode(OpCodeInstruction newInstruction) : base(newInstruction)
         {
 
@@ -155,13 +156,16 @@ namespace AdventOfCode2019
 
         protected override void ReadOpCodeData(IntComputer computer)
         {
-            int nextMemoryData = computer.ReadNextMemoryAddress();
-            destinationParam = new OpCodeParameter(OpCodeParameter.PARAMETER_MODES.IMMEDIATE, nextMemoryData, computer);
+            long nextMemoryData = computer.ReadNextMemoryAddress();
+            destinationParam = new OpCodeParameter(curInstruction.GetParamMode(0), nextMemoryData, computer);
             inputData = computer.ReadNextInput();
         }
         protected override void ProcessOpCode(IntComputer computer)
         {
-            computer.ReplaceMemoryAtAddress(destinationParam.GetParamData(), inputData);
+            // input is forked up
+            // you can have a relative address. It's technically a write, but it can be in immediate, position and relative mode.
+            int targetAddress = destinationParam.GetMemoryWriteAddressForInputParameter();
+            computer.ReplaceMemoryAtAddress(targetAddress, inputData);
         }
     }
     // debate whether to parameterize this. 
@@ -174,12 +178,12 @@ namespace AdventOfCode2019
         }
         protected override void ReadOpCodeData(IntComputer computer)
         {
-            int nextMemoryData = computer.ReadNextMemoryAddress();
+            long nextMemoryData = computer.ReadNextMemoryAddress();
             targetData = new OpCodeParameter(curInstruction.GetParamMode(0), nextMemoryData, computer) ;
         }
         protected override void ProcessOpCode(IntComputer computer)
         {
-            computer.WriteOutputData(targetData.GetParamDataUsingMode());
+            computer.WriteOutputData(targetData.ReadParamFromMemory());
             computer.PauseProgram();
         }
     }
@@ -197,7 +201,7 @@ namespace AdventOfCode2019
         }
         protected override void ReadOpCodeData(IntComputer computer)
         {
-            int nextMemoryData = computer.ReadNextMemoryAddress();
+            long nextMemoryData = computer.ReadNextMemoryAddress();
             firstVal= new OpCodeParameter(curInstruction.GetParamMode(0), nextMemoryData, computer);
             
             nextMemoryData = computer.ReadNextMemoryAddress();
@@ -206,9 +210,9 @@ namespace AdventOfCode2019
         }
         protected override void ProcessOpCode(IntComputer computer)
         {
-            if(firstVal.GetParamDataUsingMode()!=0)
-            {
-                computer.SetMemoryPointer(secondVal.GetParamDataUsingMode());
+            if(firstVal.ReadParamFromMemory()!=0)
+            {// just setting memoryPointer so we don't need to use the specialty writy addresses
+                computer.SetMemoryPointer(secondVal.ReadParamFromMemory());
             }
 
         }
@@ -224,7 +228,7 @@ namespace AdventOfCode2019
         }
         protected override void ReadOpCodeData(IntComputer computer)
         {
-            int nextMemoryData = computer.ReadNextMemoryAddress();
+            long nextMemoryData = computer.ReadNextMemoryAddress();
             firstVal = new OpCodeParameter(curInstruction.GetParamMode(0), nextMemoryData, computer);
             
             nextMemoryData = computer.ReadNextMemoryAddress();
@@ -233,9 +237,10 @@ namespace AdventOfCode2019
         }
         protected override void ProcessOpCode(IntComputer computer)
         {
-            if (firstVal.GetParamDataUsingMode() == 0)
+            if (firstVal.ReadParamFromMemory() == 0)
             {
-                computer.SetMemoryPointer(secondVal.GetParamDataUsingMode());
+                // just setting memoryPointer so we don't need to use the specialty writy addresses
+                computer.SetMemoryPointer(secondVal.ReadParamFromMemory());
             }
 
         }
@@ -258,7 +263,7 @@ namespace AdventOfCode2019
         }
         protected override void ReadOpCodeData(IntComputer computer)
         {
-            int nextMemoryData = computer.ReadNextMemoryAddress();
+            long nextMemoryData = computer.ReadNextMemoryAddress();
             firstVal = new OpCodeParameter(curInstruction.GetParamMode(0), nextMemoryData, computer);
 
             nextMemoryData = computer.ReadNextMemoryAddress();
@@ -269,13 +274,13 @@ namespace AdventOfCode2019
         }
         protected override void ProcessOpCode(IntComputer computer)
         {
-            if(firstVal.GetParamDataUsingMode()<secondVal.GetParamDataUsingMode())
+            if(firstVal.ReadParamFromMemory()<secondVal.ReadParamFromMemory())
             {
-                computer.ReplaceMemoryAtAddress(thirdVal.GetParamData(), 1);
+                computer.ReplaceMemoryAtAddress(thirdVal.GetMemoryWriteAddressFromParameter(), 1);
             }
             else
             {
-                computer.ReplaceMemoryAtAddress(thirdVal.GetParamData(), 0);
+                computer.ReplaceMemoryAtAddress(thirdVal.GetMemoryWriteAddressFromParameter(), 0);
             }
             
         }
@@ -291,7 +296,7 @@ namespace AdventOfCode2019
         }
         protected override void ReadOpCodeData(IntComputer computer)
         {
-            int nextMemoryData = computer.ReadNextMemoryAddress();
+            long nextMemoryData = computer.ReadNextMemoryAddress();
             firstVal = new OpCodeParameter(curInstruction.GetParamMode(0), nextMemoryData, computer);
 
             nextMemoryData = computer.ReadNextMemoryAddress();
@@ -303,15 +308,37 @@ namespace AdventOfCode2019
 
         protected override void ProcessOpCode(IntComputer computer)
         {
-            if (firstVal.GetParamDataUsingMode() == secondVal.GetParamDataUsingMode())
+            if (firstVal.ReadParamFromMemory() == secondVal.ReadParamFromMemory())
             {
-                computer.ReplaceMemoryAtAddress(thirdVal.GetParamData(), 1);
+                computer.ReplaceMemoryAtAddress(thirdVal.GetMemoryWriteAddressFromParameter(), 1);
             }
             else
             {
-                computer.ReplaceMemoryAtAddress(thirdVal.GetParamData(), 0);
+                computer.ReplaceMemoryAtAddress(thirdVal.GetMemoryWriteAddressFromParameter(), 0);
             }
 
+        }
+    }
+    public class AdjustRelativeBaseOpCode : OpCode
+    {
+        OpCodeParameter sourceData;
+        
+        public AdjustRelativeBaseOpCode(OpCodeInstruction newInstruction) : base(newInstruction)
+        {
+
+        }
+
+        protected override void ReadOpCodeData(IntComputer computer)
+        {
+            long nextMemoryData = computer.ReadNextMemoryAddress();
+            sourceData = new OpCodeParameter(curInstruction.GetParamMode(0), nextMemoryData, computer);
+        }
+
+
+        protected override void ProcessOpCode(IntComputer computer)
+        {
+            // this isn't writing to a memory address so we just read from memory
+            computer.AdjustRelativeBase(sourceData.ReadParamFromMemory());
         }
     }
 }

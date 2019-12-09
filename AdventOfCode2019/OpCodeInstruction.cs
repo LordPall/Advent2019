@@ -16,14 +16,16 @@ namespace AdventOfCode2019
             JUMP_IF_FALSE=6,
             LESS_THAN=7,
             EQUALS=8,
+            ADJUST_RELATIVE_BASE=9,
             EXIT = 99
         };
         int rawInstructionData;
         List<OpCodeParameter.PARAMETER_MODES> paramModes = new List<OpCodeParameter.PARAMETER_MODES>();
         OPCODE_TYPES instruction;
         
-        public OpCodeInstruction(int rawData)
+        public OpCodeInstruction(long readData)
         {
+            int rawData = (int)readData;
             rawInstructionData = rawData;
             int instructionData = rawData % 100; // last 2?
             instruction = (OPCODE_TYPES)instructionData;
@@ -41,8 +43,8 @@ namespace AdventOfCode2019
                 else
                 {
                     // get the digit
-                    int curMode = rawData % (int)Math.Pow(10, intI+1);
-                    rawData = rawData / (int)Math.Pow(10, intI+1);
+                    int curMode = rawData % 10;
+                    rawData = rawData / 10;
                     paramModes.Add((OpCodeParameter.PARAMETER_MODES)curMode);
                 }
             }            

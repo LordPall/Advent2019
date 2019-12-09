@@ -7,11 +7,17 @@ namespace AdventOfCode2019
     public class IntComputer
     {
         public int curId;
-        int[] initialMemory;
-        int[] memory;
+        int relativeBase = 0;
+
+        long[] initialMemory;
+        long[] memory;
+        public List<long> outputData = new List<long>();
+        public List<long> inputData = new List<long>();
+
         int memoryPointer;        
         runStateEnum runState;
         bool startPaused = false;
+        
         public enum runStateEnum
         {
             READY,
@@ -31,26 +37,26 @@ namespace AdventOfCode2019
         {       
             // should be one line 
             string[] splitVals = inData.Split(',');
-            int[] intComp = new int[splitVals.Length];
-            for(int intI = 0; intI < intComp.Length; intI++)
+            initialMemory = new long[splitVals.Length];
+            for(int intI = 0; intI < initialMemory.Length; intI++)
             {
-                intComp[intI] = int.Parse(splitVals[intI]);
+                initialMemory[intI] = long.Parse(splitVals[intI]);
             }
-            memory = intComp;
-            initialMemory = new int[memory.Length];
-            Array.Copy(memory, initialMemory, memory.Length);
-            initialMemory = memory;
+            memory = new long[initialMemory.Length];
+            Array.Copy(initialMemory, memory, memory.Length);            
             memoryPointer = 0;
+            relativeBase = 0;
             runState = runStateEnum.READY;
         }
         public void ResetMemory()
         {
             memoryPointer = 0;
-            memory = new int[initialMemory.Length];
+            memory = new long[initialMemory.Length];
             Array.Copy(initialMemory, memory, initialMemory.Length);
-            inputData = new List<int>();
-            outputData = new List<int>();
-            runState = runStateEnum.READY;        
+            inputData = new List<long>();
+            outputData = new List<long>();
+            runState = runStateEnum.READY;
+            relativeBase = 0;
             if(startPaused)
             {
                 StartComputer(startPaused);
@@ -100,21 +106,43 @@ namespace AdventOfCode2019
                 opCode.RunOpCode(this);
             }
         }
-        public int ReadNextMemoryAddress()
+        public long ReadNextMemoryAddress()
         {
-            int retVal = memory[memoryPointer];
+            long retVal = memory[memoryPointer];
             memoryPointer++;
             return retVal;
-        }
-        public int ReadMemoryAtAddress(int address)
-        {
-            return memory[address];
         }        
-        public void ReplaceMemoryAtAddress(int address, int newVal)
+        public void CheckForMemoryExpansion(int curAddress)
         {
-            memory[address] = newVal;
+            if(memory.Length-1<curAddress)
+            {
+                long[] newMemory = new long[memory.Length * 2];
+                while(newMemory.Length<curAddress)
+                {
+                    newMemory = new long[newMemory.Length * 2];
+                }
+                Array.Copy(memory, 0, newMemory, 0, memory.Length);
+                memory = newMemory;
+            }
+            // attempting to read or write to an address beyond the end of the array doubles the size 
         }
         
+        public long ReadMemoryAtAddress(int address)
+        {
+            CheckForMemoryExpansion(address);
+            return memory[address];
+        }        
+        public void ReplaceMemoryAtAddress(int address, long newVal)
+        {
+            CheckForMemoryExpansion(address);
+            memory[address] = newVal;
+        }
+        public void ReplaceMemoryAtAddress(long address, long newVal)
+        {
+            ReplaceMemoryAtAddress((int)address, newVal);
+        }
+
+
         public void WriteMemoryToFile(string outFile)
         {
             string outLine = "";
@@ -142,19 +170,17 @@ namespace AdventOfCode2019
             sw.WriteLine(outLine);
             sw.Close();
         }
-        public List<int> outputData = new List<int>();
-        public List<int> inputData = new List<int>();
-        public int ReadNextInput()
+        public long ReadNextInput()
         {
-            int curVal = inputData[0];
+            long curVal = inputData[0];
             inputData.RemoveAt(0);
             return curVal;
         }
-        public void AddInputData(int val)
+        public void AddInputData(long val)
         {
             inputData.Add(val);
         }
-        public void WriteOutputData(int newVal)
+        public void WriteOutputData(long newVal)
         {
             outputData.Add(newVal);
         }
@@ -163,15 +189,19 @@ namespace AdventOfCode2019
             return outputData.Count>0;
         }
 
-        public int ReadOutputData()
+        public long ReadOutputData()
         {
             if(!HasOutputData())
             {
-                return int.MinValue;
+                return long.MinValue;
             }
-            int curVal = outputData[0];
+            long curVal = outputData[0];
             outputData.RemoveAt(0);
             return curVal;
+        }
+        public void SetMemoryPointer(long newVal)
+        {
+            SetMemoryPointer((int)newVal);
         }
         public void SetMemoryPointer(int newVal)
         {
@@ -205,5 +235,17 @@ namespace AdventOfCode2019
             return outLine;
         }
 
+        public void AdjustRelativeBase(long newVal)
+        {
+            AdjustRelativeBase((int)newVal);
+        }
+        public void AdjustRelativeBase(int newVal)
+        {
+            relativeBase = relativeBase + newVal;
+        }
+        public int GetRelativeBase()
+        {
+            return relativeBase;
+        }      
     }
 }

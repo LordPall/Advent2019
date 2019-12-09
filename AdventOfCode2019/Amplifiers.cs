@@ -30,12 +30,12 @@ namespace AdventOfCode2019
                 generatedAmplifiers[intI].ResetMemory();
             }
         }
-        public int RunAmplifiers(StreamWriter sw)
+        public long RunAmplifiers(StreamWriter sw)
         {
-            string outLine = "";
+            
             bool amplifiersDone = false;
             int curIndex = 0;
-            int outputVal =0;
+            long outputVal =0;
             while (!amplifiersDone)
             {
                 if(!generatedAmplifiers[curIndex].IsProgramCompleted())
@@ -98,7 +98,7 @@ namespace AdventOfCode2019
         
         public int GetPhase(int ampIndex)
         {
-            return generatedAmplifiers[ampIndex].inputData[0]; 
+            return (int)generatedAmplifiers[ampIndex].inputData[0]; 
         }
 
     }
