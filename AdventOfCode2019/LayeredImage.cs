@@ -43,25 +43,17 @@ namespace AdventOfCode2019
         }
         public int GetIndexFromCoordinate(int xCoord, int yCoord)
         {
-            Vector2 scratchVal = new Vector2();
-            scratchVal.x = xCoord;
-            scratchVal.y = yCoord;
-            return GetIndexFromCoordinate(scratchVal);
+            return Helpers.GetIndexFromCoordinate(xCoord, yCoord, xSize);
         }
 
         public int GetIndexFromCoordinate(Vector2 coordinate)
         {
+            return Helpers.GetIndexFromCoordinate(coordinate, xSize);
             // y*xwidth +x
-            int retVal = coordinate.y * xSize;
-            retVal += coordinate.x;
-            return retVal;
         }
         public Vector2 GetCoordinatesFromIndex(int curIndex )
         {
-            Vector2 retVal = new Vector2();
-            retVal.y = curIndex / xSize; ;
-            retVal.x = curIndex - (retVal.y*xSize);
-            return retVal;
+            return Helpers.GetCoordinatesFromIndex(curIndex, xSize);
         }
         int CountValuesInImage(int[] curLayer, int checkVal)
         {

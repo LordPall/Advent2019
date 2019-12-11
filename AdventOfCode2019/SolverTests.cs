@@ -75,7 +75,7 @@ namespace AdventOfCode2019
         [InlineData(21102, new int[] {1, 1, 2, 2})]   
         public void TestOpCodeInstructionParse(int startVal, int[] expectedResults)
         {
-            OpCodeInstruction curInst = new OpCodeInstruction(21102);
+            OpCodeInstruction curInst = new OpCodeInstruction(startVal);
             // parammodes, then instruction
             Assert.Equal(expectedResults[0], (int)curInst.GetParamMode(0));
             Assert.Equal(expectedResults[1], (int)curInst.GetParamMode(1));

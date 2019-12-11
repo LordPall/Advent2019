@@ -1,0 +1,243 @@
+VISIBLE INDEX at 31,20 can see 319 asteroids
+#1 from 31,20 Angle is 0Location is 31,15 remaing on line 2
+#2 from 31,20 Angle is 3.366460663429791Location is 32,3 remaing on line 0
+#3 from 31,20 Angle is 4.085616779974885Location is 32,6 remaing on line 0
+#4 from 31,20 Angle is 4.3987053549955135Location is 32,7 remaing on line 0
+#5 from 31,20 Angle is 6.009005957494537Location is 33,1 remaing on line 0
+#6 from 31,20 Angle is 7.125016348901795Location is 33,4 remaing on line 0
+#7 from 31,20 Angle is 7.594643368591392Location is 33,5 remaing on line 0
+#8 from 31,20 Angle is 8.130102354155952Location is 32,13 remaing on line 0
+#9 from 31,20 Angle is 8.746162262555174Location is 33,7 remaing on line 0
+#10 from 31,20 Angle is 12.094757077012105Location is 34,6 remaing on line 0
+#11 from 31,20 Angle is 12.528807709151522Location is 33,11 remaing on line 0
+#12 from 31,20 Angle is 14.036243467926454Location is 35,4 remaing on line 0
+#13 from 31,20 Angle is 17.102728969052407Location is 35,7 remaing on line 0
+#14 from 31,20 Angle is 19.290046219188696Location is 38,0 remaing on line 0
+#15 from 31,20 Angle is 21.250505507133198Location is 38,2 remaing on line 0
+#16 from 31,20 Angle is 21.801409486351815Location is 35,10 remaing on line 0
+#17 from 31,20 Angle is 23.198590513648185Location is 37,6 remaing on line 0
+#18 from 31,20 Angle is 24.775140568831944Location is 37,7 remaing on line 0
+#19 from 31,20 Angle is 25.201123645475036Location is 39,3 remaing on line 0
+#20 from 31,20 Angle is 26.565051177077976Location is 37,8 remaing on line 0
+#21 from 31,20 Angle is 28.072486935852965Location is 39,5 remaing on line 0
+#22 from 31,20 Angle is 29.744881296942197Location is 39,6 remaing on line 0
+#23 from 31,20 Angle is 35.537677791974374Location is 36,13 remaing on line 0
+#24 from 31,20 Angle is 36.86989764584405Location is 34,16 remaing on line 0
+#25 from 31,20 Angle is 38.65980825409008Location is 35,15 remaing on line 0
+#26 from 31,20 Angle is 41.18592516570965Location is 38,12 remaing on line 0
+#27 from 31,20 Angle is 41.63353933657021Location is 39,11 remaing on line 0
+#28 from 31,20 Angle is 53.13010235415595Location is 35,17 remaing on line 0
+#29 from 31,20 Angle is 63.434948822922024Location is 33,19 remaing on line 0
+#30 from 31,20 Angle is 66.80140948635182Location is 38,17 remaing on line 0
+#31 from 31,20 Angle is 68.19859051364818Location is 36,18 remaing on line 0
+#32 from 31,20 Angle is 74.0546040990771Location is 38,18 remaing on line 0
+#33 from 31,20 Angle is 75.96375653207355Location is 39,18 remaing on line 0
+#34 from 31,20 Angle is 81.86989764584399Location is 38,19 remaing on line 0
+#35 from 31,20 Angle is 90Location is 32,20 remaing on line 3
+#36 from 31,20 Angle is 104.03624346792648Location is 35,21 remaing on line 0
+#37 from 31,20 Angle is 108.43494882292201Location is 34,21 remaing on line 0
+#38 from 31,20 Angle is 110.55604521958347Location is 39,23 remaing on line 0
+#39 from 31,20 Angle is 113.19859051364818Location is 38,23 remaing on line 0
+#40 from 31,20 Angle is 126.86989764584402Location is 35,23 remaing on line 0
+#41 from 31,20 Angle is 129.80557109226518Location is 37,25 remaing on line 0
+#42 from 31,20 Angle is 135Location is 34,23 remaing on line 2
+#43 from 31,20 Angle is 141.34019174590992Location is 35,25 remaing on line 0
+#44 from 31,20 Angle is 146.30993247402023Location is 33,23 remaing on line 0
+#45 from 31,20 Angle is 148.3924977537511Location is 39,33 remaing on line 0
+#46 from 31,20 Angle is 149.74356283647074Location is 38,32 remaing on line 0
+#47 from 31,20 Angle is 151.3895403340348Location is 37,31 remaing on line 0
+#48 from 31,20 Angle is 153.43494882292202Location is 34,26 remaing on line 0
+#49 from 31,20 Angle is 154.7988763545249Location is 39,37 remaing on line 0
+#50 from 31,20 Angle is 155.22485943116808Location is 37,33 remaing on line 0
+#51 from 31,20 Angle is 156.80140948635182Location is 37,34 remaing on line 0
+#52 from 31,20 Angle is 157.38013505195957Location is 36,32 remaing on line 0
+#53 from 31,20 Angle is 158.19859051364818Location is 37,35 remaing on line 0
+#54 from 31,20 Angle is 158.9624889745782Location is 36,33 remaing on line 0
+#55 from 31,20 Angle is 159.44395478041653Location is 37,36 remaing on line 0
+#56 from 31,20 Angle is 164.05460409907715Location is 33,27 remaing on line 0
+#57 from 31,20 Angle is 164.47588900324575Location is 36,38 remaing on line 0
+#58 from 31,20 Angle is 165.25643716352926Location is 36,39 remaing on line 0
+#59 from 31,20 Angle is 167.47119229084848Location is 33,29 remaing on line 0
+#60 from 31,20 Angle is 167.9052429229879Location is 34,34 remaing on line 0
+#61 from 31,20 Angle is 168.69006752597977Location is 34,35 remaing on line 0
+#62 from 31,20 Angle is 169.69515353123398Location is 33,31 remaing on line 0
+#63 from 31,20 Angle is 170.53767779197437Location is 32,26 remaing on line 1
+#64 from 31,20 Angle is 171.2538377374448Location is 33,33 remaing on line 0
+#65 from 31,20 Angle is 173.65980825409008Location is 32,29 remaing on line 0
+#66 from 31,20 Angle is 176.6335393365702Location is 32,37 remaing on line 0
+#67 from 31,20 Angle is 176.82016988013578Location is 32,38 remaing on line 0
+#68 from 31,20 Angle is 176.98721249581666Location is 32,39 remaing on line 0
+#69 from 31,20 Angle is 180Location is 31,21 remaing on line 5
+#70 from 31,20 Angle is 185.71059313749964Location is 30,30 remaing on line 0
+#71 from 31,20 Angle is 186.34019174590992Location is 29,38 remaing on line 0
+#72 from 31,20 Angle is 186.70983680775691Location is 29,37 remaing on line 0
+#73 from 31,20 Angle is 187.59464336859145Location is 29,35 remaing on line 0
+#74 from 31,20 Angle is 188.130102354156Location is 29,34 remaing on line 0
+#75 from 31,20 Angle is 190.00797980144137Location is 28,37 remaing on line 0
+#76 from 31,20 Angle is 190.61965527615513Location is 28,36 remaing on line 0
+#77 from 31,20 Angle is 191.30993247402023Location is 30,25 remaing on line 0
+#78 from 31,20 Angle is 192.0947570770121Location is 28,34 remaing on line 0
+#79 from 31,20 Angle is 192.52880770915152Location is 27,38 remaing on line 0
+#80 from 31,20 Angle is 194.0362434679265Location is 30,24 remaing on line 0
+#81 from 31,20 Angle is 194.74356283647074Location is 26,39 remaing on line 0
+#82 from 31,20 Angle is 195.52411099675425Location is 26,38 remaing on line 0
+#83 from 31,20 Angle is 198.43494882292202Location is 30,23 remaing on line 2
+#84 from 31,20 Angle is 200.55604521958347Location is 25,36 remaing on line 0
+#85 from 31,20 Angle is 201.25050550713325Location is 24,38 remaing on line 0
+#86 from 31,20 Angle is 203.19859051364818Location is 28,27 remaing on line 1
+#87 from 31,20 Angle is 205.01689347810003Location is 24,35 remaing on line 0
+#88 from 31,20 Angle is 205.2011236454751Location is 23,37 remaing on line 0
+#89 from 31,20 Angle is 206.56505117707798Location is 29,24 remaing on line 2
+#90 from 31,20 Angle is 207.89727103094765Location is 22,37 remaing on line 0
+#91 from 31,20 Angle is 209.35775354279127Location is 22,36 remaing on line 0
+#92 from 31,20 Angle is 210.4655449194599Location is 21,37 remaing on line 0
+#93 from 31,20 Angle is 210.96375653207352Location is 25,30 remaing on line 0
+#94 from 31,20 Angle is 213.69006752597977Location is 25,29 remaing on line 0
+#95 from 31,20 Angle is 214.5085229876684Location is 20,36 remaing on line 0
+#96 from 31,20 Angle is 215.8376529542783Location is 18,38 remaing on line 0
+#97 from 31,20 Angle is 216.86989764584402Location is 25,28 remaing on line 1
+#98 from 31,20 Angle is 217.40535663140855Location is 18,37 remaing on line 0
+#99 from 31,20 Angle is 219.28940686250039Location is 22,31 remaing on line 0
+#100 from 31,20 Angle is 220.6012946450045Location is 19,34 remaing on line 0
+#101 from 31,20 Angle is 221.18592516570965Location is 17,36 remaing on line 0
+#102 from 31,20 Angle is 221.6335393365702Location is 23,29 remaing on line 0
+#103 from 31,20 Angle is 221.82016988013578Location is 14,39 remaing on line 0
+#104 from 31,20 Angle is 221.98721249581666Location is 22,30 remaing on line 0
+#105 from 31,20 Angle is 223.1523897340054Location is 16,36 remaing on line 0
+#106 from 31,20 Angle is 225Location is 27,24 remaing on line 3
+#107 from 31,20 Angle is 226.54815769897797Location is 12,38 remaing on line 0
+#108 from 31,20 Angle is 226.7357045889284Location is 14,36 remaing on line 0
+#109 from 31,20 Angle is 227.72631099390628Location is 20,30 remaing on line 0
+#110 from 31,20 Angle is 228.81407483429035Location is 23,27 remaing on line 0
+#111 from 31,20 Angle is 229.1849161251184Location is 9,39 remaing on line 0
+#112 from 31,20 Angle is 229.63546342690262Location is 11,37 remaing on line 0
+#113 from 31,20 Angle is 229.89909245378777Location is 12,36 remaing on line 0
+#114 from 31,20 Angle is 230.19442890773482Location is 25,25 remaing on line 0
+#115 from 31,20 Angle is 230.4403320310055Location is 8,39 remaing on line 0
+#116 from 31,20 Angle is 230.52754015165618Location is 14,34 remaing on line 0
+#117 from 31,20 Angle is 231.34019174590992Location is 26,24 remaing on line 0
+#118 from 31,20 Angle is 231.84277341263095Location is 17,31 remaing on line 0
+#119 from 31,20 Angle is 231.95295746817393Location is 8,38 remaing on line 0
+#120 from 31,20 Angle is 232.12501634890182Location is 13,34 remaing on line 0
+#121 from 31,20 Angle is 232.30575953331083Location is 9,37 remaing on line 0
+#122 from 31,20 Angle is 235.00797980144134Location is 11,34 remaing on line 0
+#123 from 31,20 Angle is 235.71312302279105Location is 9,35 remaing on line 0
+#124 from 31,20 Angle is 236.30993247402023Location is 28,22 remaing on line 1
+#125 from 31,20 Angle is 236.76828893202062Location is 2,39 remaing on line 0
+#126 from 31,20 Angle is 237.2647737278924Location is 3,38 remaing on line 0
+#127 from 31,20 Angle is 237.99461679191648Location is 23,25 remaing on line 0
+#128 from 31,20 Angle is 238.49573328079583Location is 0,39 remaing on line 0
+#129 from 31,20 Angle is 239.93141717813756Location is 12,31 remaing on line 0
+#130 from 31,20 Angle is 240.25511870305778Location is 17,28 remaing on line 2
+#131 from 31,20 Angle is 240.52411099675425Location is 8,33 remaing on line 0
+#132 from 31,20 Angle is 240.75117366345305Location is 6,34 remaing on line 0
+#133 from 31,20 Angle is 241.260204708312Location is 0,37 remaing on line 0
+#134 from 31,20 Angle is 241.69924423399362Location is 5,34 remaing on line 0
+#135 from 31,20 Angle is 242.35402463626133Location is 10,31 remaing on line 0
+#136 from 31,20 Angle is 242.4471884232822Location is 8,32 remaing on line 0
+#137 from 31,20 Angle is 242.52556837372285Location is 6,33 remaing on line 0
+#138 from 31,20 Angle is 243.43494882292202Location is 23,24 remaing on line 3
+#139 from 31,20 Angle is 244.79887635452494Location is 14,28 remaing on line 0
+#140 from 31,20 Angle is 245.22485943116808Location is 5,32 remaing on line 0
+#141 from 31,20 Angle is 245.3764352138364Location is 7,31 remaing on line 0
+#142 from 31,20 Angle is 245.55604521958347Location is 9,30 remaing on line 0
+#143 from 31,20 Angle is 245.77225468204583Location is 11,29 remaing on line 0
+#144 from 31,20 Angle is 246.03751102542182Location is 22,24 remaing on line 1
+#145 from 31,20 Angle is 246.25050550713325Location is 6,31 remaing on line 0
+#146 from 31,20 Angle is 246.80140948635182Location is 17,26 remaing on line 0
+#147 from 31,20 Angle is 247.24902365721235Location is 0,33 remaing on line 0
+#148 from 31,20 Angle is 247.52056560289688Location is 2,32 remaing on line 0
+#149 from 31,20 Angle is 247.75097634278762Location is 9,29 remaing on line 0
+#150 from 31,20 Angle is 248.83874018317172Location is 0,32 remaing on line 0
+#151 from 31,20 Angle is 248.96248897457818Location is 18,25 remaing on line 0
+#152 from 31,20 Angle is 250.8209919741893Location is 8,28 remaing on line 0
+#153 from 31,20 Angle is 250.9065079995144Location is 5,29 remaing on line 0
+#154 from 31,20 Angle is 250.97439396243132Location is 2,30 remaing on line 0
+#155 from 31,20 Angle is 251.56505117707798Location is 28,21 remaing on line 1
+#156 from 31,20 Angle is 252.18111108547723Location is 3,29 remaing on line 0
+#157 from 31,20 Angle is 252.25532837494308Location is 6,28 remaing on line 0
+#158 from 31,20 Angle is 252.6459753637387Location is 15,25 remaing on line 0
+#159 from 31,20 Angle is 253.30075576600638Location is 11,26 remaing on line 1
+#160 from 31,20 Angle is 253.49563861824498Location is 4,28 remaing on line 0
+#161 from 31,20 Angle is 253.81079374297306Location is 0,29 remaing on line 0
+#162 from 31,20 Angle is 254.05460409907712Location is 24,22 remaing on line 1
+#163 from 31,20 Angle is 254.57783868126134Location is 2,28 remaing on line 0
+#164 from 31,20 Angle is 255.96375653207352Location is 7,26 remaing on line 0
+#165 from 31,20 Angle is 256.4295656148385Location is 2,27 remaing on line 0
+#166 from 31,20 Angle is 256.7594800848128Location is 14,24 remaing on line 0
+#167 from 31,20 Angle is 256.86597769360367Location is 1,27 remaing on line 0
+#168 from 31,20 Angle is 257.00538320808346Location is 18,23 remaing on line 0
+#169 from 31,20 Angle is 257.2756443145777Location is 0,27 remaing on line 0
+#170 from 31,20 Angle is 258.111341960372Location is 12,24 remaing on line 0
+#171 from 31,20 Angle is 258.69006752597977Location is 16,23 remaing on line 0
+#172 from 31,20 Angle is 259.0459373566017Location is 0,26 remaing on line 0
+#173 from 31,20 Angle is 259.695153531234Location is 9,24 remaing on line 0
+#174 from 31,20 Angle is 260.5376777919744Location is 25,21 remaing on line 0
+#175 from 31,20 Angle is 261.25383773744477Location is 18,22 remaing on line 0
+#176 from 31,20 Angle is 261.86989764584405Location is 24,21 remaing on line 1
+#177 from 31,20 Angle is 262.4053566314086Location is 16,22 remaing on line 0
+#178 from 31,20 Angle is 262.5685920288275Location is 8,23 remaing on line 0
+#179 from 31,20 Angle is 264.5596679689945Location is 10,22 remaing on line 0
+#180 from 31,20 Angle is 264.80557109226515Location is 9,22 remaing on line 0
+#181 from 31,20 Angle is 265.23635830927384Location is 7,22 remaing on line 0
+#182 from 31,20 Angle is 266.4236656250026Location is 15,21 remaing on line 0
+#183 from 31,20 Angle is 266.8201698801358Location is 13,21 remaing on line 0
+#184 from 31,20 Angle is 267.1375947738883Location is 11,21 remaing on line 0
+#185 from 31,20 Angle is 267.5104470780009Location is 8,21 remaing on line 0
+#186 from 31,20 Angle is 267.95459151111277Location is 3,21 remaing on line 0
+#187 from 31,20 Angle is 270Location is 29,20 remaing on line 5
+#188 from 31,20 Angle is 272.20259816176576Location is 5,19 remaing on line 0
+#189 from 31,20 Angle is 272.6025622024998Location is 9,19 remaing on line 0
+#190 from 31,20 Angle is 272.7263109939063Location is 10,19 remaing on line 0
+#191 from 31,20 Angle is 273.1798301198642Location is 13,19 remaing on line 0
+#192 from 31,20 Angle is 273.6913859864513Location is 0,18 remaing on line 0
+#193 from 31,20 Angle is 274.23639479905887Location is 4,18 remaing on line 0
+#194 from 31,20 Angle is 274.3987053549955Location is 18,19 remaing on line 0
+#195 from 31,20 Angle is 274.7636416907262Location is 7,18 remaing on line 0
+#196 from 31,20 Angle is 275.1944289077348Location is 20,19 remaing on line 0
+#197 from 31,20 Angle is 275.4403320310055Location is 10,18 remaing on line 0
+#198 from 31,20 Angle is 276.00900595749454Location is 12,18 remaing on line 0
+#199 from 31,20 Angle is 276.3401917459099Location is 22,19 remaing on line 1
+#200 from 31,20 Angle is 276.581944655178Location is 5,17 remaing on line 0
+----------------ASTEROID STAGE-------------------------
+##.###.#.......#.#....#....#............
+....#..#..#.....#.##....................
+...#.#..###..#..#.....#........#........
+#......#.....#.##.#.##.##...#...........
+.............#....#.....#.#.............
+..##.....#..#..#.#.#....##..............
+.#........#...#...#.#.....#.............
+...#...........#....#..#.#..#...........
+#.##.#.#...#..#...........#.............
+........#.#..#..##.#.##......##.........
+................#.##.#....##............
+#............#.........###...#..........
+#....#..#....##.#....#...#.....#........
+.........#...#.#....#.#.....#...........
+.............###.....#.#...##...........
+...#...#.......#....#.#...#.............
+.....#..#...#.#.........##....#.........
+....#..........#......#...#...#.........
+................##.#..#.................
+.......................#..##............
+..#....#..#........#.#.........#...###..
+........................................
+........................................
+........................................
+...#.....................#.....#...#....
+........................................
+...................#........##.#........
+..........#....................#........
+...#.........#.........................#
+.#....................#.....#...........
+...............................#........
+.........#..............................
+..........#...........#..#.......#......
+..................#............#........
+.........................#..............
+.#..............#.......................
+...#....................................
+........................................
+........................................
+........................................
+END----------------ASTEROID STAGE-------------------------

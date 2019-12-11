@@ -144,6 +144,24 @@ namespace AdventOfCode2019
             li.DrawImage(outFile);
             
         }
+        public void SolveDayTen()
+        {
+
+            string resultsFile = "adventDayTenSolution.txt";
+            string dataFile = "adventDayTen.txt";
+            string outFile = Path.Combine(baseDir, resultsFile);
+            string inFile = Path.Combine(baseDir, dataFile);
+            string[] sourceData = ReadAllLines(inFile);
+            AsteroidField af = new AsteroidField(sourceData);
+
+            af.StartVaporizing(outFile, 200);
+
+            //af.WriteDebugData(startVec, outFile);
+            //            StreamWriter sw = new StreamWriter(outFile);
+            //sw.WriteLine(debugData);
+            //sw.Close();
+
+        }
         public void SolveDayNine()
         {
 
@@ -157,9 +175,9 @@ namespace AdventOfCode2019
             curComp.AddInputData(2); // test mode
             //curComp.InitializeMemory(SolverTests.GetSampleData(0));
             curComp.StartComputer(false);
-            while(!curComp.IsProgramCompleted())
+            while (!curComp.IsProgramCompleted())
             {
-                curComp.ResumeProgram(); 
+                curComp.ResumeProgram();
             }
             string debugData = curComp.GetDebugOutputString();
             StreamWriter sw = new StreamWriter(outFile);
