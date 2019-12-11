@@ -49,7 +49,7 @@ namespace AdventOfCode2019
         void ProcessMoveCommand(string moveString)
         {
             string dirString = moveString.Substring(0, 1);
-            WireDirectionEnum curDir = DirStringToEnum(dirString);
+            Helpers.DirectionEnum curDir = DirStringToEnum(dirString);
             string distanceString = moveString.Substring(1, moveString.Length - 1);
             int curDist = int.Parse(distanceString);            
             for(int intI =0; intI < curDist; intI++)
@@ -57,9 +57,9 @@ namespace AdventOfCode2019
                 ExtendWire(curDir);
             }               
         }
-        void ExtendWire(WireDirectionEnum curDir)
+        void ExtendWire(Helpers.DirectionEnum curDir)
         {
-            wireEnd = MovePos(wireEnd, curDir);
+            wireEnd = Helpers.MovePos(wireEnd, curDir);
             wireLength++;
             AddPoint(wireEnd);           
         }              
@@ -82,58 +82,29 @@ namespace AdventOfCode2019
             }
             return -1;
         }
-        enum WireDirectionEnum
-        {
-            UP,
-            DOWN,
-            LEFT,
-            RIGHT,
-            VOID
-        }
-        Vector2 MovePos(Vector2 curPos, WireDirectionEnum curDir)
-        {
-            switch (curDir)
-            {
-                case WireDirectionEnum.DOWN:
-                    curPos.y--;
-                    return curPos;
-                case WireDirectionEnum.UP:
-                    curPos.y++;
-                    return curPos;
 
-                case WireDirectionEnum.LEFT:
-                    curPos.x--;
-                    return curPos;
-
-                case WireDirectionEnum.RIGHT:
-                    curPos.x++;
-                    return curPos;
-
-                default: return curPos;
-            }
-        }
-        WireDirectionEnum DirStringToEnum(string dir)
+        Helpers.DirectionEnum DirStringToEnum(string dir)
         {
             if (dir == "U")
             {
-                return WireDirectionEnum.UP;
+                return Helpers.DirectionEnum.UP;
             }
             else if (dir == "D")
             {
-                return WireDirectionEnum.DOWN;
+                return Helpers.DirectionEnum.DOWN;
             }
             else if (dir == "L")
             {
-                return WireDirectionEnum.LEFT;
+                return Helpers.DirectionEnum.LEFT;
             }
             else if (dir == "R")
             {
-                return WireDirectionEnum.RIGHT;
+                return Helpers.DirectionEnum.RIGHT;
             }
             else
             {
                 // der fark
-                return WireDirectionEnum.VOID;
+                return Helpers.DirectionEnum.VOID;
             }
 
         }

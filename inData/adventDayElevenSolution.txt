@@ -1,0 +1,1546 @@
+Adding input 1
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 50,25 curColor is WHITE New color is BLACK
+ Turning robot 1Robot Facing UP got 1 newDir =RIGHT
+Facing RIGHT startPos is 50,25
+ New pos is 51,25
+Adding input 0
+Program returned 2 values first=1 second=1
+Painting current panel color WHITEPainting panel at 51,25 curColor is BLACK New color is WHITE
+ Turning robot 1Robot Facing RIGHT got 1 newDir =DOWN
+Facing DOWN startPos is 51,25
+ New pos is 51,26
+Adding input 0
+Program returned 2 values first=1 second=0
+Painting current panel color WHITEPainting panel at 51,26 curColor is BLACK New color is WHITE
+ Turning robot 0Robot Facing DOWN got 0 newDir =RIGHT
+Facing RIGHT startPos is 51,26
+ New pos is 52,26
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 52,26 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing RIGHT got 0 newDir =UP
+Facing UP startPos is 52,26
+ New pos is 52,25
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 52,25 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing UP got 1 newDir =RIGHT
+Facing RIGHT startPos is 52,25
+ New pos is 53,25
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 53,25 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing RIGHT got 1 newDir =DOWN
+Facing DOWN startPos is 53,25
+ New pos is 53,26
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 53,26 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing DOWN got 0 newDir =RIGHT
+Facing RIGHT startPos is 53,26
+ New pos is 54,26
+Adding input 0
+Program returned 2 values first=1 second=0
+Painting current panel color WHITEPainting panel at 54,26 curColor is BLACK New color is WHITE
+ Turning robot 0Robot Facing RIGHT got 0 newDir =UP
+Facing UP startPos is 54,26
+ New pos is 54,25
+Adding input 0
+Program returned 2 values first=1 second=1
+Painting current panel color WHITEPainting panel at 54,25 curColor is BLACK New color is WHITE
+ Turning robot 1Robot Facing UP got 1 newDir =RIGHT
+Facing RIGHT startPos is 54,25
+ New pos is 55,25
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 55,25 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing RIGHT got 1 newDir =DOWN
+Facing DOWN startPos is 55,25
+ New pos is 55,26
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 55,26 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing DOWN got 0 newDir =RIGHT
+Facing RIGHT startPos is 55,26
+ New pos is 56,26
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 56,26 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing RIGHT got 0 newDir =UP
+Facing UP startPos is 56,26
+ New pos is 56,25
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 56,25 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing UP got 1 newDir =RIGHT
+Facing RIGHT startPos is 56,25
+ New pos is 57,25
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 57,25 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing RIGHT got 1 newDir =DOWN
+Facing DOWN startPos is 57,25
+ New pos is 57,26
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 57,26 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing DOWN got 0 newDir =RIGHT
+Facing RIGHT startPos is 57,26
+ New pos is 58,26
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 58,26 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing RIGHT got 0 newDir =UP
+Facing UP startPos is 58,26
+ New pos is 58,25
+Adding input 0
+Program returned 2 values first=1 second=1
+Painting current panel color WHITEPainting panel at 58,25 curColor is BLACK New color is WHITE
+ Turning robot 1Robot Facing UP got 1 newDir =RIGHT
+Facing RIGHT startPos is 58,25
+ New pos is 59,25
+Adding input 0
+Program returned 2 values first=1 second=1
+Painting current panel color WHITEPainting panel at 59,25 curColor is BLACK New color is WHITE
+ Turning robot 1Robot Facing RIGHT got 1 newDir =DOWN
+Facing DOWN startPos is 59,25
+ New pos is 59,26
+Adding input 0
+Program returned 2 values first=1 second=0
+Painting current panel color WHITEPainting panel at 59,26 curColor is BLACK New color is WHITE
+ Turning robot 0Robot Facing DOWN got 0 newDir =RIGHT
+Facing RIGHT startPos is 59,26
+ New pos is 60,26
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 60,26 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing RIGHT got 0 newDir =UP
+Facing UP startPos is 60,26
+ New pos is 60,25
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 60,25 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing UP got 1 newDir =RIGHT
+Facing RIGHT startPos is 60,25
+ New pos is 61,25
+Adding input 0
+Program returned 2 values first=1 second=1
+Painting current panel color WHITEPainting panel at 61,25 curColor is BLACK New color is WHITE
+ Turning robot 1Robot Facing RIGHT got 1 newDir =DOWN
+Facing DOWN startPos is 61,25
+ New pos is 61,26
+Adding input 0
+Program returned 2 values first=1 second=0
+Painting current panel color WHITEPainting panel at 61,26 curColor is BLACK New color is WHITE
+ Turning robot 0Robot Facing DOWN got 0 newDir =RIGHT
+Facing RIGHT startPos is 61,26
+ New pos is 62,26
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 62,26 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing RIGHT got 0 newDir =UP
+Facing UP startPos is 62,26
+ New pos is 62,25
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 62,25 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing UP got 1 newDir =RIGHT
+Facing RIGHT startPos is 62,25
+ New pos is 63,25
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 63,25 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing RIGHT got 1 newDir =DOWN
+Facing DOWN startPos is 63,25
+ New pos is 63,26
+Adding input 0
+Program returned 2 values first=1 second=0
+Painting current panel color WHITEPainting panel at 63,26 curColor is BLACK New color is WHITE
+ Turning robot 0Robot Facing DOWN got 0 newDir =RIGHT
+Facing RIGHT startPos is 63,26
+ New pos is 64,26
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 64,26 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing RIGHT got 0 newDir =UP
+Facing UP startPos is 64,26
+ New pos is 64,25
+Adding input 0
+Program returned 2 values first=1 second=1
+Painting current panel color WHITEPainting panel at 64,25 curColor is BLACK New color is WHITE
+ Turning robot 1Robot Facing UP got 1 newDir =RIGHT
+Facing RIGHT startPos is 64,25
+ New pos is 65,25
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 65,25 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing RIGHT got 1 newDir =DOWN
+Facing DOWN startPos is 65,25
+ New pos is 65,26
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 65,26 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing DOWN got 0 newDir =RIGHT
+Facing RIGHT startPos is 65,26
+ New pos is 66,26
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 66,26 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing RIGHT got 0 newDir =UP
+Facing UP startPos is 66,26
+ New pos is 66,25
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 66,25 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing UP got 1 newDir =RIGHT
+Facing RIGHT startPos is 66,25
+ New pos is 67,25
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 67,25 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing RIGHT got 1 newDir =DOWN
+Facing DOWN startPos is 67,25
+ New pos is 67,26
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 67,26 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing DOWN got 0 newDir =RIGHT
+Facing RIGHT startPos is 67,26
+ New pos is 68,26
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 68,26 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing RIGHT got 0 newDir =UP
+Facing UP startPos is 68,26
+ New pos is 68,25
+Adding input 0
+Program returned 2 values first=1 second=1
+Painting current panel color WHITEPainting panel at 68,25 curColor is BLACK New color is WHITE
+ Turning robot 1Robot Facing UP got 1 newDir =RIGHT
+Facing RIGHT startPos is 68,25
+ New pos is 69,25
+Adding input 0
+Program returned 2 values first=1 second=1
+Painting current panel color WHITEPainting panel at 69,25 curColor is BLACK New color is WHITE
+ Turning robot 1Robot Facing RIGHT got 1 newDir =DOWN
+Facing DOWN startPos is 69,25
+ New pos is 69,26
+Adding input 0
+Program returned 2 values first=1 second=0
+Painting current panel color WHITEPainting panel at 69,26 curColor is BLACK New color is WHITE
+ Turning robot 0Robot Facing DOWN got 0 newDir =RIGHT
+Facing RIGHT startPos is 69,26
+ New pos is 70,26
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 70,26 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing RIGHT got 0 newDir =UP
+Facing UP startPos is 70,26
+ New pos is 70,25
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 70,25 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing UP got 1 newDir =RIGHT
+Facing RIGHT startPos is 70,25
+ New pos is 71,25
+Adding input 0
+Program returned 2 values first=1 second=1
+Painting current panel color WHITEPainting panel at 71,25 curColor is BLACK New color is WHITE
+ Turning robot 1Robot Facing RIGHT got 1 newDir =DOWN
+Facing DOWN startPos is 71,25
+ New pos is 71,26
+Adding input 0
+Program returned 2 values first=1 second=0
+Painting current panel color WHITEPainting panel at 71,26 curColor is BLACK New color is WHITE
+ Turning robot 0Robot Facing DOWN got 0 newDir =RIGHT
+Facing RIGHT startPos is 71,26
+ New pos is 72,26
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 72,26 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing RIGHT got 0 newDir =UP
+Facing UP startPos is 72,26
+ New pos is 72,25
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 72,25 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing UP got 1 newDir =RIGHT
+Facing RIGHT startPos is 72,25
+ New pos is 73,25
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 73,25 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing RIGHT got 1 newDir =DOWN
+Facing DOWN startPos is 73,25
+ New pos is 73,26
+Adding input 0
+Program returned 2 values first=1 second=0
+Painting current panel color WHITEPainting panel at 73,26 curColor is BLACK New color is WHITE
+ Turning robot 0Robot Facing DOWN got 0 newDir =RIGHT
+Facing RIGHT startPos is 73,26
+ New pos is 74,26
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 74,26 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing RIGHT got 0 newDir =UP
+Facing UP startPos is 74,26
+ New pos is 74,25
+Adding input 0
+Program returned 2 values first=1 second=1
+Painting current panel color WHITEPainting panel at 74,25 curColor is BLACK New color is WHITE
+ Turning robot 1Robot Facing UP got 1 newDir =RIGHT
+Facing RIGHT startPos is 74,25
+ New pos is 75,25
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 75,25 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing RIGHT got 1 newDir =DOWN
+Facing DOWN startPos is 75,25
+ New pos is 75,26
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 75,26 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing DOWN got 0 newDir =RIGHT
+Facing RIGHT startPos is 75,26
+ New pos is 76,26
+Adding input 0
+Program returned 2 values first=1 second=0
+Painting current panel color WHITEPainting panel at 76,26 curColor is BLACK New color is WHITE
+ Turning robot 0Robot Facing RIGHT got 0 newDir =UP
+Facing UP startPos is 76,26
+ New pos is 76,25
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 76,25 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing UP got 1 newDir =RIGHT
+Facing RIGHT startPos is 76,25
+ New pos is 77,25
+Adding input 0
+Program returned 2 values first=1 second=1
+Painting current panel color WHITEPainting panel at 77,25 curColor is BLACK New color is WHITE
+ Turning robot 1Robot Facing RIGHT got 1 newDir =DOWN
+Facing DOWN startPos is 77,25
+ New pos is 77,26
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 77,26 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing DOWN got 0 newDir =RIGHT
+Facing RIGHT startPos is 77,26
+ New pos is 78,26
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 78,26 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing RIGHT got 0 newDir =UP
+Facing UP startPos is 78,26
+ New pos is 78,25
+Adding input 0
+Program returned 2 values first=1 second=1
+Painting current panel color WHITEPainting panel at 78,25 curColor is BLACK New color is WHITE
+ Turning robot 1Robot Facing UP got 1 newDir =RIGHT
+Facing RIGHT startPos is 78,25
+ New pos is 79,25
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 79,25 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing RIGHT got 1 newDir =DOWN
+Facing DOWN startPos is 79,25
+ New pos is 79,26
+Adding input 0
+Program returned 2 values first=1 second=0
+Painting current panel color WHITEPainting panel at 79,26 curColor is BLACK New color is WHITE
+ Turning robot 0Robot Facing DOWN got 0 newDir =RIGHT
+Facing RIGHT startPos is 79,26
+ New pos is 80,26
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 80,26 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing RIGHT got 0 newDir =UP
+Facing UP startPos is 80,26
+ New pos is 80,25
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 80,25 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing UP got 1 newDir =RIGHT
+Facing RIGHT startPos is 80,25
+ New pos is 81,25
+Adding input 0
+Program returned 2 values first=1 second=1
+Painting current panel color WHITEPainting panel at 81,25 curColor is BLACK New color is WHITE
+ Turning robot 1Robot Facing RIGHT got 1 newDir =DOWN
+Facing DOWN startPos is 81,25
+ New pos is 81,26
+Adding input 0
+Program returned 2 values first=1 second=0
+Painting current panel color WHITEPainting panel at 81,26 curColor is BLACK New color is WHITE
+ Turning robot 0Robot Facing DOWN got 0 newDir =RIGHT
+Facing RIGHT startPos is 81,26
+ New pos is 82,26
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 82,26 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing RIGHT got 0 newDir =UP
+Facing UP startPos is 82,26
+ New pos is 82,25
+Adding input 0
+Program returned 2 values first=1 second=1
+Painting current panel color WHITEPainting panel at 82,25 curColor is BLACK New color is WHITE
+ Turning robot 1Robot Facing UP got 1 newDir =RIGHT
+Facing RIGHT startPos is 82,25
+ New pos is 83,25
+Adding input 0
+Program returned 2 values first=1 second=1
+Painting current panel color WHITEPainting panel at 83,25 curColor is BLACK New color is WHITE
+ Turning robot 1Robot Facing RIGHT got 1 newDir =DOWN
+Facing DOWN startPos is 83,25
+ New pos is 83,26
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 83,26 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing DOWN got 0 newDir =RIGHT
+Facing RIGHT startPos is 83,26
+ New pos is 84,26
+Adding input 0
+Program returned 2 values first=1 second=0
+Painting current panel color WHITEPainting panel at 84,26 curColor is BLACK New color is WHITE
+ Turning robot 0Robot Facing RIGHT got 0 newDir =UP
+Facing UP startPos is 84,26
+ New pos is 84,25
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 84,25 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing UP got 1 newDir =RIGHT
+Facing RIGHT startPos is 84,25
+ New pos is 85,25
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 85,25 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing RIGHT got 1 newDir =DOWN
+Facing DOWN startPos is 85,25
+ New pos is 85,26
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 85,26 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing DOWN got 0 newDir =RIGHT
+Facing RIGHT startPos is 85,26
+ New pos is 86,26
+Adding input 0
+Program returned 2 values first=1 second=0
+Painting current panel color WHITEPainting panel at 86,26 curColor is BLACK New color is WHITE
+ Turning robot 0Robot Facing RIGHT got 0 newDir =UP
+Facing UP startPos is 86,26
+ New pos is 86,25
+Adding input 0
+Program returned 2 values first=1 second=1
+Painting current panel color WHITEPainting panel at 86,25 curColor is BLACK New color is WHITE
+ Turning robot 1Robot Facing UP got 1 newDir =RIGHT
+Facing RIGHT startPos is 86,25
+ New pos is 87,25
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 87,25 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing RIGHT got 1 newDir =DOWN
+Facing DOWN startPos is 87,25
+ New pos is 87,26
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 87,26 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing DOWN got 0 newDir =RIGHT
+Facing RIGHT startPos is 87,26
+ New pos is 88,26
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 88,26 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing RIGHT got 0 newDir =UP
+Facing UP startPos is 88,26
+ New pos is 88,25
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 88,25 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing UP got 1 newDir =RIGHT
+Facing RIGHT startPos is 88,25
+ New pos is 89,25
+Adding input 0
+Program returned 2 values first=1 second=1
+Painting current panel color WHITEPainting panel at 89,25 curColor is BLACK New color is WHITE
+ Turning robot 1Robot Facing RIGHT got 1 newDir =DOWN
+Facing DOWN startPos is 89,25
+ New pos is 89,26
+Adding input 0
+Program returned 2 values first=1 second=0
+Painting current panel color WHITEPainting panel at 89,26 curColor is BLACK New color is WHITE
+ Turning robot 0Robot Facing DOWN got 0 newDir =RIGHT
+Facing RIGHT startPos is 89,26
+ New pos is 90,26
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 90,26 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing RIGHT got 0 newDir =UP
+Facing UP startPos is 90,26
+ New pos is 90,25
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 90,25 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing UP got 1 newDir =RIGHT
+Facing RIGHT startPos is 90,25
+ New pos is 91,25
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 91,25 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing RIGHT got 1 newDir =DOWN
+Facing DOWN startPos is 91,25
+ New pos is 91,26
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 91,26 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing DOWN got 0 newDir =RIGHT
+Facing RIGHT startPos is 91,26
+ New pos is 92,26
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 92,26 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing RIGHT got 1 newDir =DOWN
+Facing DOWN startPos is 92,26
+ New pos is 92,27
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 92,27 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing DOWN got 1 newDir =LEFT
+Facing LEFT startPos is 92,27
+ New pos is 91,27
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 91,27 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing LEFT got 0 newDir =DOWN
+Facing DOWN startPos is 91,27
+ New pos is 91,28
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 91,28 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing DOWN got 1 newDir =LEFT
+Facing LEFT startPos is 91,28
+ New pos is 90,28
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 90,28 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing LEFT got 1 newDir =UP
+Facing UP startPos is 90,28
+ New pos is 90,27
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 90,27 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing UP got 0 newDir =LEFT
+Facing LEFT startPos is 90,27
+ New pos is 89,27
+Adding input 0
+Program returned 2 values first=1 second=0
+Painting current panel color WHITEPainting panel at 89,27 curColor is BLACK New color is WHITE
+ Turning robot 0Robot Facing LEFT got 0 newDir =DOWN
+Facing DOWN startPos is 89,27
+ New pos is 89,28
+Adding input 0
+Program returned 2 values first=1 second=1
+Painting current panel color WHITEPainting panel at 89,28 curColor is BLACK New color is WHITE
+ Turning robot 1Robot Facing DOWN got 1 newDir =LEFT
+Facing LEFT startPos is 89,28
+ New pos is 88,28
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 88,28 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing LEFT got 1 newDir =UP
+Facing UP startPos is 88,28
+ New pos is 88,27
+Adding input 0
+Program returned 2 values first=1 second=0
+Painting current panel color WHITEPainting panel at 88,27 curColor is BLACK New color is WHITE
+ Turning robot 0Robot Facing UP got 0 newDir =LEFT
+Facing LEFT startPos is 88,27
+ New pos is 87,27
+Adding input 0
+Program returned 2 values first=1 second=0
+Painting current panel color WHITEPainting panel at 87,27 curColor is BLACK New color is WHITE
+ Turning robot 0Robot Facing LEFT got 0 newDir =DOWN
+Facing DOWN startPos is 87,27
+ New pos is 87,28
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 87,28 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing DOWN got 1 newDir =LEFT
+Facing LEFT startPos is 87,28
+ New pos is 86,28
+Adding input 0
+Program returned 2 values first=1 second=1
+Painting current panel color WHITEPainting panel at 86,28 curColor is BLACK New color is WHITE
+ Turning robot 1Robot Facing LEFT got 1 newDir =UP
+Facing UP startPos is 86,28
+ New pos is 86,27
+Adding input 0
+Program returned 2 values first=1 second=0
+Painting current panel color WHITEPainting panel at 86,27 curColor is BLACK New color is WHITE
+ Turning robot 0Robot Facing UP got 0 newDir =LEFT
+Facing LEFT startPos is 86,27
+ New pos is 85,27
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 85,27 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing LEFT got 0 newDir =DOWN
+Facing DOWN startPos is 85,27
+ New pos is 85,28
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 85,28 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing DOWN got 1 newDir =LEFT
+Facing LEFT startPos is 85,28
+ New pos is 84,28
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 84,28 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing LEFT got 1 newDir =UP
+Facing UP startPos is 84,28
+ New pos is 84,27
+Adding input 0
+Program returned 2 values first=1 second=0
+Painting current panel color WHITEPainting panel at 84,27 curColor is BLACK New color is WHITE
+ Turning robot 0Robot Facing UP got 0 newDir =LEFT
+Facing LEFT startPos is 84,27
+ New pos is 83,27
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 83,27 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing LEFT got 0 newDir =DOWN
+Facing DOWN startPos is 83,27
+ New pos is 83,28
+Adding input 0
+Program returned 2 values first=1 second=1
+Painting current panel color WHITEPainting panel at 83,28 curColor is BLACK New color is WHITE
+ Turning robot 1Robot Facing DOWN got 1 newDir =LEFT
+Facing LEFT startPos is 83,28
+ New pos is 82,28
+Adding input 0
+Program returned 2 values first=1 second=1
+Painting current panel color WHITEPainting panel at 82,28 curColor is BLACK New color is WHITE
+ Turning robot 1Robot Facing LEFT got 1 newDir =UP
+Facing UP startPos is 82,28
+ New pos is 82,27
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 82,27 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing UP got 0 newDir =LEFT
+Facing LEFT startPos is 82,27
+ New pos is 81,27
+Adding input 0
+Program returned 2 values first=1 second=0
+Painting current panel color WHITEPainting panel at 81,27 curColor is BLACK New color is WHITE
+ Turning robot 0Robot Facing LEFT got 0 newDir =DOWN
+Facing DOWN startPos is 81,27
+ New pos is 81,28
+Adding input 0
+Program returned 2 values first=1 second=1
+Painting current panel color WHITEPainting panel at 81,28 curColor is BLACK New color is WHITE
+ Turning robot 1Robot Facing DOWN got 1 newDir =LEFT
+Facing LEFT startPos is 81,28
+ New pos is 80,28
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 80,28 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing LEFT got 1 newDir =UP
+Facing UP startPos is 80,28
+ New pos is 80,27
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 80,27 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing UP got 0 newDir =LEFT
+Facing LEFT startPos is 80,27
+ New pos is 79,27
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 79,27 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing LEFT got 0 newDir =DOWN
+Facing DOWN startPos is 79,27
+ New pos is 79,28
+Adding input 0
+Program returned 2 values first=1 second=1
+Painting current panel color WHITEPainting panel at 79,28 curColor is BLACK New color is WHITE
+ Turning robot 1Robot Facing DOWN got 1 newDir =LEFT
+Facing LEFT startPos is 79,28
+ New pos is 78,28
+Adding input 0
+Program returned 2 values first=1 second=1
+Painting current panel color WHITEPainting panel at 78,28 curColor is BLACK New color is WHITE
+ Turning robot 1Robot Facing LEFT got 1 newDir =UP
+Facing UP startPos is 78,28
+ New pos is 78,27
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 78,27 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing UP got 0 newDir =LEFT
+Facing LEFT startPos is 78,27
+ New pos is 77,27
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 77,27 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing LEFT got 0 newDir =DOWN
+Facing DOWN startPos is 77,27
+ New pos is 77,28
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 77,28 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing DOWN got 1 newDir =LEFT
+Facing LEFT startPos is 77,28
+ New pos is 76,28
+Adding input 0
+Program returned 2 values first=1 second=1
+Painting current panel color WHITEPainting panel at 76,28 curColor is BLACK New color is WHITE
+ Turning robot 1Robot Facing LEFT got 1 newDir =UP
+Facing UP startPos is 76,28
+ New pos is 76,27
+Adding input 0
+Program returned 2 values first=1 second=0
+Painting current panel color WHITEPainting panel at 76,27 curColor is BLACK New color is WHITE
+ Turning robot 0Robot Facing UP got 0 newDir =LEFT
+Facing LEFT startPos is 76,27
+ New pos is 75,27
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 75,27 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing LEFT got 0 newDir =DOWN
+Facing DOWN startPos is 75,27
+ New pos is 75,28
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 75,28 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing DOWN got 1 newDir =LEFT
+Facing LEFT startPos is 75,28
+ New pos is 74,28
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 74,28 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing LEFT got 1 newDir =UP
+Facing UP startPos is 74,28
+ New pos is 74,27
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 74,27 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing UP got 0 newDir =LEFT
+Facing LEFT startPos is 74,27
+ New pos is 73,27
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 73,27 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing LEFT got 0 newDir =DOWN
+Facing DOWN startPos is 73,27
+ New pos is 73,28
+Adding input 0
+Program returned 2 values first=1 second=1
+Painting current panel color WHITEPainting panel at 73,28 curColor is BLACK New color is WHITE
+ Turning robot 1Robot Facing DOWN got 1 newDir =LEFT
+Facing LEFT startPos is 73,28
+ New pos is 72,28
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 72,28 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing LEFT got 1 newDir =UP
+Facing UP startPos is 72,28
+ New pos is 72,27
+Adding input 0
+Program returned 2 values first=1 second=0
+Painting current panel color WHITEPainting panel at 72,27 curColor is BLACK New color is WHITE
+ Turning robot 0Robot Facing UP got 0 newDir =LEFT
+Facing LEFT startPos is 72,27
+ New pos is 71,27
+Adding input 0
+Program returned 2 values first=1 second=0
+Painting current panel color WHITEPainting panel at 71,27 curColor is BLACK New color is WHITE
+ Turning robot 0Robot Facing LEFT got 0 newDir =DOWN
+Facing DOWN startPos is 71,27
+ New pos is 71,28
+Adding input 0
+Program returned 2 values first=1 second=1
+Painting current panel color WHITEPainting panel at 71,28 curColor is BLACK New color is WHITE
+ Turning robot 1Robot Facing DOWN got 1 newDir =LEFT
+Facing LEFT startPos is 71,28
+ New pos is 70,28
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 70,28 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing LEFT got 1 newDir =UP
+Facing UP startPos is 70,28
+ New pos is 70,27
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 70,27 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing UP got 0 newDir =LEFT
+Facing LEFT startPos is 70,27
+ New pos is 69,27
+Adding input 0
+Program returned 2 values first=1 second=0
+Painting current panel color WHITEPainting panel at 69,27 curColor is BLACK New color is WHITE
+ Turning robot 0Robot Facing LEFT got 0 newDir =DOWN
+Facing DOWN startPos is 69,27
+ New pos is 69,28
+Adding input 0
+Program returned 2 values first=1 second=1
+Painting current panel color WHITEPainting panel at 69,28 curColor is BLACK New color is WHITE
+ Turning robot 1Robot Facing DOWN got 1 newDir =LEFT
+Facing LEFT startPos is 69,28
+ New pos is 68,28
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 68,28 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing LEFT got 1 newDir =UP
+Facing UP startPos is 68,28
+ New pos is 68,27
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 68,27 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing UP got 0 newDir =LEFT
+Facing LEFT startPos is 68,27
+ New pos is 67,27
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 67,27 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing LEFT got 0 newDir =DOWN
+Facing DOWN startPos is 67,27
+ New pos is 67,28
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 67,28 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing DOWN got 1 newDir =LEFT
+Facing LEFT startPos is 67,28
+ New pos is 66,28
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 66,28 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing LEFT got 1 newDir =UP
+Facing UP startPos is 66,28
+ New pos is 66,27
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 66,27 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing UP got 0 newDir =LEFT
+Facing LEFT startPos is 66,27
+ New pos is 65,27
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 65,27 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing LEFT got 0 newDir =DOWN
+Facing DOWN startPos is 65,27
+ New pos is 65,28
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 65,28 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing DOWN got 1 newDir =LEFT
+Facing LEFT startPos is 65,28
+ New pos is 64,28
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 64,28 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing LEFT got 1 newDir =UP
+Facing UP startPos is 64,28
+ New pos is 64,27
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 64,27 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing UP got 0 newDir =LEFT
+Facing LEFT startPos is 64,27
+ New pos is 63,27
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 63,27 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing LEFT got 0 newDir =DOWN
+Facing DOWN startPos is 63,27
+ New pos is 63,28
+Adding input 0
+Program returned 2 values first=1 second=1
+Painting current panel color WHITEPainting panel at 63,28 curColor is BLACK New color is WHITE
+ Turning robot 1Robot Facing DOWN got 1 newDir =LEFT
+Facing LEFT startPos is 63,28
+ New pos is 62,28
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 62,28 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing LEFT got 1 newDir =UP
+Facing UP startPos is 62,28
+ New pos is 62,27
+Adding input 0
+Program returned 2 values first=1 second=0
+Painting current panel color WHITEPainting panel at 62,27 curColor is BLACK New color is WHITE
+ Turning robot 0Robot Facing UP got 0 newDir =LEFT
+Facing LEFT startPos is 62,27
+ New pos is 61,27
+Adding input 0
+Program returned 2 values first=1 second=0
+Painting current panel color WHITEPainting panel at 61,27 curColor is BLACK New color is WHITE
+ Turning robot 0Robot Facing LEFT got 0 newDir =DOWN
+Facing DOWN startPos is 61,27
+ New pos is 61,28
+Adding input 0
+Program returned 2 values first=1 second=1
+Painting current panel color WHITEPainting panel at 61,28 curColor is BLACK New color is WHITE
+ Turning robot 1Robot Facing DOWN got 1 newDir =LEFT
+Facing LEFT startPos is 61,28
+ New pos is 60,28
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 60,28 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing LEFT got 1 newDir =UP
+Facing UP startPos is 60,28
+ New pos is 60,27
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 60,27 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing UP got 0 newDir =LEFT
+Facing LEFT startPos is 60,27
+ New pos is 59,27
+Adding input 0
+Program returned 2 values first=1 second=0
+Painting current panel color WHITEPainting panel at 59,27 curColor is BLACK New color is WHITE
+ Turning robot 0Robot Facing LEFT got 0 newDir =DOWN
+Facing DOWN startPos is 59,27
+ New pos is 59,28
+Adding input 0
+Program returned 2 values first=1 second=1
+Painting current panel color WHITEPainting panel at 59,28 curColor is BLACK New color is WHITE
+ Turning robot 1Robot Facing DOWN got 1 newDir =LEFT
+Facing LEFT startPos is 59,28
+ New pos is 58,28
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 58,28 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing LEFT got 1 newDir =UP
+Facing UP startPos is 58,28
+ New pos is 58,27
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 58,27 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing UP got 0 newDir =LEFT
+Facing LEFT startPos is 58,27
+ New pos is 57,27
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 57,27 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing LEFT got 0 newDir =DOWN
+Facing DOWN startPos is 57,27
+ New pos is 57,28
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 57,28 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing DOWN got 1 newDir =LEFT
+Facing LEFT startPos is 57,28
+ New pos is 56,28
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 56,28 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing LEFT got 1 newDir =UP
+Facing UP startPos is 56,28
+ New pos is 56,27
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 56,27 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing UP got 0 newDir =LEFT
+Facing LEFT startPos is 56,27
+ New pos is 55,27
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 55,27 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing LEFT got 0 newDir =DOWN
+Facing DOWN startPos is 55,27
+ New pos is 55,28
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 55,28 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing DOWN got 1 newDir =LEFT
+Facing LEFT startPos is 55,28
+ New pos is 54,28
+Adding input 0
+Program returned 2 values first=1 second=1
+Painting current panel color WHITEPainting panel at 54,28 curColor is BLACK New color is WHITE
+ Turning robot 1Robot Facing LEFT got 1 newDir =UP
+Facing UP startPos is 54,28
+ New pos is 54,27
+Adding input 0
+Program returned 2 values first=1 second=0
+Painting current panel color WHITEPainting panel at 54,27 curColor is BLACK New color is WHITE
+ Turning robot 0Robot Facing UP got 0 newDir =LEFT
+Facing LEFT startPos is 54,27
+ New pos is 53,27
+Adding input 0
+Program returned 2 values first=1 second=0
+Painting current panel color WHITEPainting panel at 53,27 curColor is BLACK New color is WHITE
+ Turning robot 0Robot Facing LEFT got 0 newDir =DOWN
+Facing DOWN startPos is 53,27
+ New pos is 53,28
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 53,28 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing DOWN got 1 newDir =LEFT
+Facing LEFT startPos is 53,28
+ New pos is 52,28
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 52,28 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing LEFT got 1 newDir =UP
+Facing UP startPos is 52,28
+ New pos is 52,27
+Adding input 0
+Program returned 2 values first=1 second=0
+Painting current panel color WHITEPainting panel at 52,27 curColor is BLACK New color is WHITE
+ Turning robot 0Robot Facing UP got 0 newDir =LEFT
+Facing LEFT startPos is 52,27
+ New pos is 51,27
+Adding input 0
+Program returned 2 values first=1 second=0
+Painting current panel color WHITEPainting panel at 51,27 curColor is BLACK New color is WHITE
+ Turning robot 0Robot Facing LEFT got 0 newDir =DOWN
+Facing DOWN startPos is 51,27
+ New pos is 51,28
+Adding input 0
+Program returned 2 values first=1 second=1
+Painting current panel color WHITEPainting panel at 51,28 curColor is BLACK New color is WHITE
+ Turning robot 1Robot Facing DOWN got 1 newDir =LEFT
+Facing LEFT startPos is 51,28
+ New pos is 50,28
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 50,28 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing LEFT got 0 newDir =DOWN
+Facing DOWN startPos is 50,28
+ New pos is 50,29
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 50,29 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing DOWN got 0 newDir =RIGHT
+Facing RIGHT startPos is 50,29
+ New pos is 51,29
+Adding input 0
+Program returned 2 values first=1 second=1
+Painting current panel color WHITEPainting panel at 51,29 curColor is BLACK New color is WHITE
+ Turning robot 1Robot Facing RIGHT got 1 newDir =DOWN
+Facing DOWN startPos is 51,29
+ New pos is 51,30
+Adding input 0
+Program returned 2 values first=1 second=0
+Painting current panel color WHITEPainting panel at 51,30 curColor is BLACK New color is WHITE
+ Turning robot 0Robot Facing DOWN got 0 newDir =RIGHT
+Facing RIGHT startPos is 51,30
+ New pos is 52,30
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 52,30 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing RIGHT got 0 newDir =UP
+Facing UP startPos is 52,30
+ New pos is 52,29
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 52,29 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing UP got 1 newDir =RIGHT
+Facing RIGHT startPos is 52,29
+ New pos is 53,29
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 53,29 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing RIGHT got 1 newDir =DOWN
+Facing DOWN startPos is 53,29
+ New pos is 53,30
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 53,30 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing DOWN got 0 newDir =RIGHT
+Facing RIGHT startPos is 53,30
+ New pos is 54,30
+Adding input 0
+Program returned 2 values first=1 second=0
+Painting current panel color WHITEPainting panel at 54,30 curColor is BLACK New color is WHITE
+ Turning robot 0Robot Facing RIGHT got 0 newDir =UP
+Facing UP startPos is 54,30
+ New pos is 54,29
+Adding input 0
+Program returned 2 values first=1 second=1
+Painting current panel color WHITEPainting panel at 54,29 curColor is BLACK New color is WHITE
+ Turning robot 1Robot Facing UP got 1 newDir =RIGHT
+Facing RIGHT startPos is 54,29
+ New pos is 55,29
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 55,29 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing RIGHT got 1 newDir =DOWN
+Facing DOWN startPos is 55,29
+ New pos is 55,30
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 55,30 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing DOWN got 0 newDir =RIGHT
+Facing RIGHT startPos is 55,30
+ New pos is 56,30
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 56,30 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing RIGHT got 0 newDir =UP
+Facing UP startPos is 56,30
+ New pos is 56,29
+Adding input 0
+Program returned 2 values first=1 second=1
+Painting current panel color WHITEPainting panel at 56,29 curColor is BLACK New color is WHITE
+ Turning robot 1Robot Facing UP got 1 newDir =RIGHT
+Facing RIGHT startPos is 56,29
+ New pos is 57,29
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 57,29 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing RIGHT got 1 newDir =DOWN
+Facing DOWN startPos is 57,29
+ New pos is 57,30
+Adding input 0
+Program returned 2 values first=1 second=0
+Painting current panel color WHITEPainting panel at 57,30 curColor is BLACK New color is WHITE
+ Turning robot 0Robot Facing DOWN got 0 newDir =RIGHT
+Facing RIGHT startPos is 57,30
+ New pos is 58,30
+Adding input 0
+Program returned 2 values first=1 second=0
+Painting current panel color WHITEPainting panel at 58,30 curColor is BLACK New color is WHITE
+ Turning robot 0Robot Facing RIGHT got 0 newDir =UP
+Facing UP startPos is 58,30
+ New pos is 58,29
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 58,29 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing UP got 1 newDir =RIGHT
+Facing RIGHT startPos is 58,29
+ New pos is 59,29
+Adding input 0
+Program returned 2 values first=1 second=1
+Painting current panel color WHITEPainting panel at 59,29 curColor is BLACK New color is WHITE
+ Turning robot 1Robot Facing RIGHT got 1 newDir =DOWN
+Facing DOWN startPos is 59,29
+ New pos is 59,30
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 59,30 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing DOWN got 0 newDir =RIGHT
+Facing RIGHT startPos is 59,30
+ New pos is 60,30
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 60,30 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing RIGHT got 0 newDir =UP
+Facing UP startPos is 60,30
+ New pos is 60,29
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 60,29 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing UP got 1 newDir =RIGHT
+Facing RIGHT startPos is 60,29
+ New pos is 61,29
+Adding input 0
+Program returned 2 values first=1 second=1
+Painting current panel color WHITEPainting panel at 61,29 curColor is BLACK New color is WHITE
+ Turning robot 1Robot Facing RIGHT got 1 newDir =DOWN
+Facing DOWN startPos is 61,29
+ New pos is 61,30
+Adding input 0
+Program returned 2 values first=1 second=0
+Painting current panel color WHITEPainting panel at 61,30 curColor is BLACK New color is WHITE
+ Turning robot 0Robot Facing DOWN got 0 newDir =RIGHT
+Facing RIGHT startPos is 61,30
+ New pos is 62,30
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 62,30 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing RIGHT got 0 newDir =UP
+Facing UP startPos is 62,30
+ New pos is 62,29
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 62,29 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing UP got 1 newDir =RIGHT
+Facing RIGHT startPos is 62,29
+ New pos is 63,29
+Adding input 0
+Program returned 2 values first=1 second=1
+Painting current panel color WHITEPainting panel at 63,29 curColor is BLACK New color is WHITE
+ Turning robot 1Robot Facing RIGHT got 1 newDir =DOWN
+Facing DOWN startPos is 63,29
+ New pos is 63,30
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 63,30 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing DOWN got 0 newDir =RIGHT
+Facing RIGHT startPos is 63,30
+ New pos is 64,30
+Adding input 0
+Program returned 2 values first=1 second=0
+Painting current panel color WHITEPainting panel at 64,30 curColor is BLACK New color is WHITE
+ Turning robot 0Robot Facing RIGHT got 0 newDir =UP
+Facing UP startPos is 64,30
+ New pos is 64,29
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 64,29 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing UP got 1 newDir =RIGHT
+Facing RIGHT startPos is 64,29
+ New pos is 65,29
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 65,29 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing RIGHT got 1 newDir =DOWN
+Facing DOWN startPos is 65,29
+ New pos is 65,30
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 65,30 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing DOWN got 0 newDir =RIGHT
+Facing RIGHT startPos is 65,30
+ New pos is 66,30
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 66,30 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing RIGHT got 0 newDir =UP
+Facing UP startPos is 66,30
+ New pos is 66,29
+Adding input 0
+Program returned 2 values first=1 second=1
+Painting current panel color WHITEPainting panel at 66,29 curColor is BLACK New color is WHITE
+ Turning robot 1Robot Facing UP got 1 newDir =RIGHT
+Facing RIGHT startPos is 66,29
+ New pos is 67,29
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 67,29 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing RIGHT got 1 newDir =DOWN
+Facing DOWN startPos is 67,29
+ New pos is 67,30
+Adding input 0
+Program returned 2 values first=1 second=0
+Painting current panel color WHITEPainting panel at 67,30 curColor is BLACK New color is WHITE
+ Turning robot 0Robot Facing DOWN got 0 newDir =RIGHT
+Facing RIGHT startPos is 67,30
+ New pos is 68,30
+Adding input 0
+Program returned 2 values first=1 second=0
+Painting current panel color WHITEPainting panel at 68,30 curColor is BLACK New color is WHITE
+ Turning robot 0Robot Facing RIGHT got 0 newDir =UP
+Facing UP startPos is 68,30
+ New pos is 68,29
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 68,29 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing UP got 1 newDir =RIGHT
+Facing RIGHT startPos is 68,29
+ New pos is 69,29
+Adding input 0
+Program returned 2 values first=1 second=1
+Painting current panel color WHITEPainting panel at 69,29 curColor is BLACK New color is WHITE
+ Turning robot 1Robot Facing RIGHT got 1 newDir =DOWN
+Facing DOWN startPos is 69,29
+ New pos is 69,30
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 69,30 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing DOWN got 0 newDir =RIGHT
+Facing RIGHT startPos is 69,30
+ New pos is 70,30
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 70,30 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing RIGHT got 0 newDir =UP
+Facing UP startPos is 70,30
+ New pos is 70,29
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 70,29 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing UP got 1 newDir =RIGHT
+Facing RIGHT startPos is 70,29
+ New pos is 71,29
+Adding input 0
+Program returned 2 values first=1 second=1
+Painting current panel color WHITEPainting panel at 71,29 curColor is BLACK New color is WHITE
+ Turning robot 1Robot Facing RIGHT got 1 newDir =DOWN
+Facing DOWN startPos is 71,29
+ New pos is 71,30
+Adding input 0
+Program returned 2 values first=1 second=0
+Painting current panel color WHITEPainting panel at 71,30 curColor is BLACK New color is WHITE
+ Turning robot 0Robot Facing DOWN got 0 newDir =RIGHT
+Facing RIGHT startPos is 71,30
+ New pos is 72,30
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 72,30 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing RIGHT got 0 newDir =UP
+Facing UP startPos is 72,30
+ New pos is 72,29
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 72,29 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing UP got 1 newDir =RIGHT
+Facing RIGHT startPos is 72,29
+ New pos is 73,29
+Adding input 0
+Program returned 2 values first=1 second=1
+Painting current panel color WHITEPainting panel at 73,29 curColor is BLACK New color is WHITE
+ Turning robot 1Robot Facing RIGHT got 1 newDir =DOWN
+Facing DOWN startPos is 73,29
+ New pos is 73,30
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 73,30 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing DOWN got 0 newDir =RIGHT
+Facing RIGHT startPos is 73,30
+ New pos is 74,30
+Adding input 0
+Program returned 2 values first=1 second=0
+Painting current panel color WHITEPainting panel at 74,30 curColor is BLACK New color is WHITE
+ Turning robot 0Robot Facing RIGHT got 0 newDir =UP
+Facing UP startPos is 74,30
+ New pos is 74,29
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 74,29 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing UP got 1 newDir =RIGHT
+Facing RIGHT startPos is 74,29
+ New pos is 75,29
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 75,29 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing RIGHT got 1 newDir =DOWN
+Facing DOWN startPos is 75,29
+ New pos is 75,30
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 75,30 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing DOWN got 0 newDir =RIGHT
+Facing RIGHT startPos is 75,30
+ New pos is 76,30
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 76,30 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing RIGHT got 0 newDir =UP
+Facing UP startPos is 76,30
+ New pos is 76,29
+Adding input 0
+Program returned 2 values first=1 second=1
+Painting current panel color WHITEPainting panel at 76,29 curColor is BLACK New color is WHITE
+ Turning robot 1Robot Facing UP got 1 newDir =RIGHT
+Facing RIGHT startPos is 76,29
+ New pos is 77,29
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 77,29 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing RIGHT got 1 newDir =DOWN
+Facing DOWN startPos is 77,29
+ New pos is 77,30
+Adding input 0
+Program returned 2 values first=1 second=0
+Painting current panel color WHITEPainting panel at 77,30 curColor is BLACK New color is WHITE
+ Turning robot 0Robot Facing DOWN got 0 newDir =RIGHT
+Facing RIGHT startPos is 77,30
+ New pos is 78,30
+Adding input 0
+Program returned 2 values first=1 second=0
+Painting current panel color WHITEPainting panel at 78,30 curColor is BLACK New color is WHITE
+ Turning robot 0Robot Facing RIGHT got 0 newDir =UP
+Facing UP startPos is 78,30
+ New pos is 78,29
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 78,29 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing UP got 1 newDir =RIGHT
+Facing RIGHT startPos is 78,29
+ New pos is 79,29
+Adding input 0
+Program returned 2 values first=1 second=1
+Painting current panel color WHITEPainting panel at 79,29 curColor is BLACK New color is WHITE
+ Turning robot 1Robot Facing RIGHT got 1 newDir =DOWN
+Facing DOWN startPos is 79,29
+ New pos is 79,30
+Adding input 0
+Program returned 2 values first=1 second=0
+Painting current panel color WHITEPainting panel at 79,30 curColor is BLACK New color is WHITE
+ Turning robot 0Robot Facing DOWN got 0 newDir =RIGHT
+Facing RIGHT startPos is 79,30
+ New pos is 80,30
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 80,30 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing RIGHT got 0 newDir =UP
+Facing UP startPos is 80,30
+ New pos is 80,29
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 80,29 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing UP got 1 newDir =RIGHT
+Facing RIGHT startPos is 80,29
+ New pos is 81,29
+Adding input 0
+Program returned 2 values first=1 second=1
+Painting current panel color WHITEPainting panel at 81,29 curColor is BLACK New color is WHITE
+ Turning robot 1Robot Facing RIGHT got 1 newDir =DOWN
+Facing DOWN startPos is 81,29
+ New pos is 81,30
+Adding input 0
+Program returned 2 values first=1 second=0
+Painting current panel color WHITEPainting panel at 81,30 curColor is BLACK New color is WHITE
+ Turning robot 0Robot Facing DOWN got 0 newDir =RIGHT
+Facing RIGHT startPos is 81,30
+ New pos is 82,30
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 82,30 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing RIGHT got 0 newDir =UP
+Facing UP startPos is 82,30
+ New pos is 82,29
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 82,29 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing UP got 1 newDir =RIGHT
+Facing RIGHT startPos is 82,29
+ New pos is 83,29
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 83,29 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing RIGHT got 1 newDir =DOWN
+Facing DOWN startPos is 83,29
+ New pos is 83,30
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 83,30 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing DOWN got 0 newDir =RIGHT
+Facing RIGHT startPos is 83,30
+ New pos is 84,30
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 84,30 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing RIGHT got 0 newDir =UP
+Facing UP startPos is 84,30
+ New pos is 84,29
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 84,29 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing UP got 1 newDir =RIGHT
+Facing RIGHT startPos is 84,29
+ New pos is 85,29
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 85,29 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing RIGHT got 1 newDir =DOWN
+Facing DOWN startPos is 85,29
+ New pos is 85,30
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 85,30 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing DOWN got 0 newDir =RIGHT
+Facing RIGHT startPos is 85,30
+ New pos is 86,30
+Adding input 0
+Program returned 2 values first=1 second=0
+Painting current panel color WHITEPainting panel at 86,30 curColor is BLACK New color is WHITE
+ Turning robot 0Robot Facing RIGHT got 0 newDir =UP
+Facing UP startPos is 86,30
+ New pos is 86,29
+Adding input 0
+Program returned 2 values first=1 second=1
+Painting current panel color WHITEPainting panel at 86,29 curColor is BLACK New color is WHITE
+ Turning robot 1Robot Facing UP got 1 newDir =RIGHT
+Facing RIGHT startPos is 86,29
+ New pos is 87,29
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 87,29 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing RIGHT got 1 newDir =DOWN
+Facing DOWN startPos is 87,29
+ New pos is 87,30
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 87,30 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing DOWN got 0 newDir =RIGHT
+Facing RIGHT startPos is 87,30
+ New pos is 88,30
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 88,30 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing RIGHT got 0 newDir =UP
+Facing UP startPos is 88,30
+ New pos is 88,29
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 88,29 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing UP got 1 newDir =RIGHT
+Facing RIGHT startPos is 88,29
+ New pos is 89,29
+Adding input 0
+Program returned 2 values first=1 second=1
+Painting current panel color WHITEPainting panel at 89,29 curColor is BLACK New color is WHITE
+ Turning robot 1Robot Facing RIGHT got 1 newDir =DOWN
+Facing DOWN startPos is 89,29
+ New pos is 89,30
+Adding input 0
+Program returned 2 values first=1 second=0
+Painting current panel color WHITEPainting panel at 89,30 curColor is BLACK New color is WHITE
+ Turning robot 0Robot Facing DOWN got 0 newDir =RIGHT
+Facing RIGHT startPos is 89,30
+ New pos is 90,30
+Adding input 0
+Program returned 2 values first=0 second=0
+Painting current panel color BLACKPainting panel at 90,30 curColor is BLACK New color is BLACK
+ Turning robot 0Robot Facing RIGHT got 0 newDir =UP
+Facing UP startPos is 90,30
+ New pos is 90,29
+Adding input 0
+Program returned 2 values first=0 second=1
+Painting current panel color BLACKPainting panel at 90,29 curColor is BLACK New color is BLACK
+ Turning robot 1Robot Facing UP got 1 newDir =RIGHT
+Facing RIGHT startPos is 90,29
+ New pos is 91,29
+Adding input 0
+PAINTED 249
+....................................................................................................
+....................................................................................................
+....................................................................................................
+....................................................................................................
+....................................................................................................
+....................................................................................................
+....................................................................................................
+....................................................................................................
+....................................................................................................
+....................................................................................................
+....................................................................................................
+....................................................................................................
+....................................................................................................
+....................................................................................................
+....................................................................................................
+....................................................................................................
+....................................................................................................
+....................................................................................................
+....................................................................................................
+....................................................................................................
+....................................................................................................
+....................................................................................................
+....................................................................................................
+....................................................................................................
+....................................................................................................
+...................................................#..#...##.#..#...##.#..#..##..###..#..#..........
+...................................................#..#....#.#.#.....#.#.#..#..#.#..#.#..#..........
+...................................................####....#.##......#.##...#....#..#.####..........
+...................................................#..#....#.#.#.....#.#.#..#.##.###..#..#..........
+...................................................#..#.#..#.#.#..#..#.#.#..#..#.#....#..#..........
+...................................................#..#..##..#..#..##..#..#..###.#....#..#..........
+....................................................................................................
+....................................................................................................
+....................................................................................................
+....................................................................................................
+....................................................................................................
+....................................................................................................
+....................................................................................................
+....................................................................................................
+....................................................................................................
+....................................................................................................
+....................................................................................................
+....................................................................................................
+....................................................................................................
+....................................................................................................
+....................................................................................................
+....................................................................................................
+....................................................................................................
+....................................................................................................
+....................................................................................................

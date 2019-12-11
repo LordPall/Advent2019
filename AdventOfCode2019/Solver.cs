@@ -162,6 +162,25 @@ namespace AdventOfCode2019
             //sw.Close();
 
         }
+        public void SolveDayEleven()
+        {
+
+            string resultsFile = "adventDayElevenSolution.txt";
+            string dataFile = "adventDayEleven.txt";
+            string outFile = Path.Combine(baseDir, resultsFile);
+            string inFile = Path.Combine(baseDir, dataFile);
+
+            string[] sourceData = ReadAllLines(inFile);
+
+
+            PainterRobot pr = new PainterRobot(sourceData[0], 100, 50, outFile);
+
+            //af.WriteDebugData(startVec, outFile);
+            //            StreamWriter sw = new StreamWriter(outFile);
+            //sw.WriteLine(debugData);
+            //sw.Close();
+
+        }
         public void SolveDayNine()
         {
 
