@@ -18,7 +18,8 @@ namespace AdventOfCode2019
             //curSolver.SolveDayEight();
             //curSolver.SolveDayNine();
             //curSolver.SolveDayTen();
-            curSolver.SolveDayEleven();
+            //curSolver.SolveDayEleven();
+            curSolver.SolveDayTwelve();
 
         }
     }

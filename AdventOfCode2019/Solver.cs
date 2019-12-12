@@ -162,6 +162,20 @@ namespace AdventOfCode2019
             //sw.Close();
 
         }
+        public void SolveDayTwelve()
+        {
+
+            string resultsFile = "adventDayTwelveSolution.txt";
+            string dataFile = "adventDayTwelve.txt";
+            string outFile = Path.Combine(baseDir, resultsFile);
+            string inFile = Path.Combine(baseDir, dataFile);
+
+            string[] sourceData = ReadAllLines(inFile);
+            PlanetarySystem ps = new PlanetarySystem(sourceData, outFile);
+            ps.SimulateSystem();
+            //ps.Abstraction();
+
+        }
         public void SolveDayEleven()
         {
 

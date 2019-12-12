@@ -1,0 +1,7 @@
+Found mults = x715830 y 419060 z 255890
+Finished run, energy info 3070431477584880
+ energy for 0 Kinetic = 0 potential is 1898 total is 0
+ energy for 1 Kinetic = 0 potential is 1396 total is 0
+ energy for 2 Kinetic = 0 potential is 1969 total is 0
+ energy for 3 Kinetic = 0 potential is 1490 total is 0
+System total is 0
