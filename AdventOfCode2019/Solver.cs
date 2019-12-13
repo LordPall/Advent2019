@@ -176,6 +176,21 @@ namespace AdventOfCode2019
             //ps.Abstraction();
 
         }
+
+        public void SolveDayThirteen()
+        {
+
+            string resultsFile = "adventDayThirteenSolution.txt";
+            string dataFile = "adventDayThirteen.txt";
+            string outFile = Path.Combine(baseDir, resultsFile);
+            string inFile = Path.Combine(baseDir, dataFile);
+
+            string[] sourceData = ReadAllLines(inFile);
+
+            ArcadeMachine am = new ArcadeMachine(sourceData[0], outFile);
+            am.StartMachine();
+            
+        }
         public void SolveDayEleven()
         {
 

@@ -166,6 +166,44 @@ namespace AdventOfCode2019
         {
             return b == 0 ? a : GCD(b, a % b);
         }
+        public static T[] CheckAndExpandArray<T>(T[] sourceArray, int curIndex)
+        {
+            if (sourceArray.Length - 1 < curIndex)
+            {
+                T[] newArray = new T[curIndex + 1];
+
+                Array.Copy(sourceArray, 0, newArray, 0, sourceArray.Length);
+                return newArray;
+            }
+            return sourceArray;
+
+        }
+        public static List<List<T>> ExpandListOfLists<T>(List<List<T>> curList, int xLoc, int yLoc)
+        {
+            // index is 6. count is 5
+            // we need to add 2
+            if (curList.Count-1< yLoc)
+            {
+                int numToAdd = curList.Count - yLoc;
+                // add new lists up to yloc
+                for (int intI = 0; intI <= numToAdd; intI++)
+                {
+                    List<T> newList = new List<T>();                    
+                    curList.Add(newList);
+                }
+            }
+            int curSize = curList[yLoc].Count;
+            if (curSize - 1 < xLoc)
+            {
+                // expand every other list                
+                int numToAdd = curList[yLoc].Count- xLoc;
+                for (int intJ = 0; intJ <= numToAdd; intJ++)
+                {
+                    curList[yLoc].Add(default(T));
+                }
+            }
+            return curList;
+        }
 
 
     }
