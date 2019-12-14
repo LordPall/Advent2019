@@ -49,7 +49,7 @@ namespace AdventOfCode2019
                 }
             }
             int curMax = int.MinValue; ;
-            int curIndex = -1;
+            
 
             for (int intI = 0; intI < asteroidField.Length; intI++)
             {
@@ -240,7 +240,7 @@ namespace AdventOfCode2019
             outLine = "VISIBLE INDEX at " + bestSpot.x + "," + bestSpot.y + " can see " + visibleCount + " asteroids";
             sw.WriteLine(outLine);
             int curIndex = Helpers.GetIndexFromCoordinate(targetPoint, xSize);            
-            int curLength = 0;
+            
             outLine = "";
             /*foreach (KeyValuePair<Vector2, angleCheckStruct> kvp in asteroidField[curIndex].curAngles)
             {

@@ -210,6 +210,19 @@ namespace AdventOfCode2019
             //sw.Close();
 
         }
+        public void SolveDayFourteen()
+        {
+
+            string resultsFile = "adventDayFourteenSolution.txt";
+            string dataFile = "adventDayFourteen.txt";
+            string outFile = Path.Combine(baseDir, resultsFile);
+            string inFile = Path.Combine(baseDir, dataFile);
+
+            string[] sourceData = ReadAllLines(inFile);
+            FuelProcessor fp = new FuelProcessor(sourceData, outFile);
+
+
+        }
         public void SolveDayNine()
         {
 

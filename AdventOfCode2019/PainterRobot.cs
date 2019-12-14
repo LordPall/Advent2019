@@ -20,9 +20,8 @@ namespace AdventOfCode2019
         struct PaintPanelStruct
         {
             public bool wasPainted;
-            public PaintColorEnum curColor;
-            public PaintColorEnum startColor;
-            public int numTimesPainted;
+            public PaintColorEnum curColor;            
+            
 
         }
 
@@ -106,7 +105,7 @@ namespace AdventOfCode2019
             sw = new StreamWriter(outFile);
             PaintColorEnum colorToPaint;
             int directionToTurn;
-            string Outline = "";
+            
             while(!robotComputer.IsProgramCompleted())
             {
                 robotComputer.AddInputData((long)GetPanelColorAtPosition());
