@@ -82,6 +82,12 @@ namespace AdventOfCode2019
         {
             runState = runStateEnum.PAUSED;
         }
+        public void RestartProgram()
+        {
+            runState = runStateEnum.PAUSED;
+            ResumeProgram();
+        }
+
         public void ResumeProgram()
         {
             if(runState==runStateEnum.PAUSED)

@@ -223,6 +223,18 @@ namespace AdventOfCode2019
 
 
         }
+        public void SolveDayFifteen()
+        {
+
+            string resultsFile = "adventDayFifteenSolution.txt";
+            string dataFile = "adventDayFifteen.txt";
+            string outFile = Path.Combine(baseDir, resultsFile);
+            string inFile = Path.Combine(baseDir, dataFile);
+            string[] sourceData = ReadAllLines(inFile);
+            RepairBot rb = new RepairBot(sourceData[0], outFile);
+
+
+        }
         public void SolveDayNine()
         {
 

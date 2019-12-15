@@ -48,7 +48,7 @@ namespace AdventOfCode2019
                     asteroidField[(intJ * xSize) + intI] = curStruct;
                 }
             }
-            int curMax = int.MinValue; ;
+            
             
 
             for (int intI = 0; intI < asteroidField.Length; intI++)

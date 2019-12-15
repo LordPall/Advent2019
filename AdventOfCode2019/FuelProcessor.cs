@@ -26,7 +26,7 @@ namespace AdventOfCode2019
         Dictionary<string, int> requiredChemicals = new Dictionary<string, int>();
         Dictionary<String, int> producedChemicals = new Dictionary<string, int>();
 
-        int oreAvailable = int.MaxValue;
+        
         int oreUsed = 0;
         /*bool CanConsumeOre(int amount)
         {
@@ -168,11 +168,11 @@ namespace AdventOfCode2019
                 //1 HKCVW, 2 DFCT => 5 ZJZRN
                 SetupRecipe(inLine);                
             }
-            int scratch = 0;
+            
             recipeLookup["FUEL"].resultAmount = 1;
             recipeLookup["ORE"].resultAmount = 1;
-            bool oreRemaining = true;
-            int fuelAmount = 0;
+            
+            
             while(HasOreRemaining())
             {
                 ProduceChemical("FUEL", 1);
